@@ -1,4 +1,5 @@
 from functools import reduce
+import numpy as np
 
 class SymbolicModel:
     def __init__(self, grammar, parser):
@@ -13,10 +14,12 @@ class SymbolicModel:
                 p = 10**-50
                 parses = self.parser.parse_all(input)
                 if parses:
-                    # parses[0].draw()
+                    print(len(parses))
+                    parses[0].draw()
                     prod_number = len(parses[0].productions())
-                    p = reduce(lambda a,b:a+b.prob(), list(filter(lambda x: x.label() == 'S', parses)), 0.0)
-                out_probs.append(np.log(p/prod_number))
+                    print(prod_number)
+                    p += reduce(lambda a,b:a+b.prob(), list(filter(lambda x: x.label() == 'S', parses)), 0.0)
+                    out_probs.append(np.log(p/prod_number))
             except:
                 out_probs.append(None)
         return out_probs

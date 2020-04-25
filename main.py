@@ -26,17 +26,16 @@ def main():
 
     t = time.time()
     train_inputs, train_labels, test_inputs, test_labels = load_cola()
-    print("Cola loaded in %.1fs" % (time.time()-t))
+    print("CoLA loaded in %.1fs" % (time.time()-t))
 
     sym = SymbolicModel(grammar, parser)
-    # lbls = test_labels[0:5]
+    # train_inputs, train_labels = sym.filter_coverage(train_inputs, train_labels)
+    # test_inputs, test_labels = sym.filter_coverage(test_inputs, test_labels)
 
     # probs = sym.produce_normalized_log_probs(test_inputs[0:5])
-    # probs = sym.produce_normalized_log_probs(["John John John John John .".split()])
-    # print(probs)
+    probs = sym.produce_normalized_log_probs(["John John John John .".split()])
+    print(probs)
     # visualize_results(probs, lbls)
-
-    sym.filter_coverage(train_inputs, train_labels)
 
 def test():
     train_inputs, train_labels, test_inputs, test_labels = load_cola()
