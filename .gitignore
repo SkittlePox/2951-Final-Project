@@ -1,0 +1,4 @@
+pickled-vars/
+data/
+__pycache__/
+.DS_Store
