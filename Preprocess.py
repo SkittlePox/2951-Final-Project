@@ -4,7 +4,7 @@ from functools import reduce
 
 import nltk
 from nltk import Nonterminal, induce_pcfg
-from nltk.corpus import treebank
+from nltk.corpus import treebank, ptb
 from nltk.parse import ViterbiParser
 
 var_dir = "pickled-vars/"
@@ -19,19 +19,30 @@ def save_lexicon_cleartext(grammar, filename):
     f = open("%s%s-lexicon.txt" % (var_dir, filename), "w")
     f.write("\n".join(filter(lambda x: "'" in x, str(grammar).split("\n"))))
 
-def create_pcfg_from_treebank(pickle_it=False, log_it=False, filename="treebank"):
+def create_pcfg_from_treebank(pickle_it=False, log_it=False, filename="treebank", full=False):
     """
     Creates a PCFG from the Penn Treebank dataset using induce_pcfg
     Optional pickling of this PCFG in pickled-vars/
     """
+    if full:
+        tb = ptb
+    else:
+        tb = treebank
     productions = []
-    for item in treebank.fileids(): # Goes through all trees
-        for tree in treebank.parsed_sents(item):
+    flat_trees = 0
+    for item in tb.fileids(): # Goes through all trees
+        for tree in tb.parsed_sents(item):
+            if tree.height() == 2:  # Gets rid of flat trees
+                # print("####Tree not collected#####")
+                flat_trees += 1
+                continue
             # print(" ".join(tree.leaves()))    # This should print the sentences
             # perform optional tree transformations, e.g.:
             # tree.collapse_unary(collapsePOS = False)# Remove branches A-B-C into A-B+C
             # tree.chomsky_normal_form(horzMarkov = 2)# Remove A->(B,C,D) into A->B,C+D->D
             productions += tree.productions()
+    print("%s Flat trees purged" % flat_trees)
+
     S = Nonterminal('S')
     grammar = induce_pcfg(S, productions)
     if pickle_it:
