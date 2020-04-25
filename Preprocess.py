@@ -29,8 +29,8 @@ def create_pcfg_from_treebank(pickle_it=False, log_it=False, filename="treebank"
         for tree in treebank.parsed_sents(item):
             # print(" ".join(tree.leaves()))    # This should print the sentences
             # perform optional tree transformations, e.g.:
-            tree.collapse_unary(collapsePOS = False)# Remove branches A-B-C into A-B+C
-            tree.chomsky_normal_form(horzMarkov = 2)# Remove A->(B,C,D) into A->B,C+D->D
+            # tree.collapse_unary(collapsePOS = False)# Remove branches A-B-C into A-B+C
+            # tree.chomsky_normal_form(horzMarkov = 2)# Remove A->(B,C,D) into A->B,C+D->D
             productions += tree.productions()
     S = Nonterminal('S')
     grammar = induce_pcfg(S, productions)
