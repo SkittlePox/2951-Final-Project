@@ -9,8 +9,6 @@ import numpy as np
 def visualize_results(probs, labels):
     y = np.random.rand(len(probs))
     plt.scatter(probs, y, c=labels, alpha=0.9)
-    plt.xscale("log")
-    plt.xlim(10**-30, 1)
     plt.show()
 
 def main():
@@ -29,13 +27,18 @@ def main():
     print("CoLA loaded in %.1fs" % (time.time()-t))
 
     sym = SymbolicModel(grammar, parser)
-    # train_inputs, train_labels = sym.filter_coverage(train_inputs, train_labels)
-    # test_inputs, test_labels = sym.filter_coverage(test_inputs, test_labels)
+    t = time.time()
+    train_inputs, train_labels = sym.filter_coverage(train_inputs, train_labels)
+    test_inputs, test_labels = sym.filter_coverage(test_inputs, test_labels)
+    print("Examples filtered for coverage in %.1fs" % (time.time()-t))
 
-    # probs = sym.produce_normalized_log_probs(test_inputs[0:5])
-    probs = sym.produce_normalized_log_probs(["John John John John .".split()])
+    t = time.time()
+    probs = sym.produce_normalized_log_probs(test_inputs[0:10])
+    labels = test_labels[0:10]
+    print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
+    # probs = sym.produce_normalized_log_probs(["John John John John .".split()])
     print(probs)
-    # visualize_results(probs, lbls)
+    visualize_results(probs, labels)
 
 def test():
     train_inputs, train_labels, test_inputs, test_labels = load_cola()

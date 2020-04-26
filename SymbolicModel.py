@@ -14,10 +14,10 @@ class SymbolicModel:
                 p = 10**-50
                 parses = self.parser.parse_all(input)
                 if parses:
-                    print(len(parses))
-                    parses[0].draw()
+                    # print(len(parses))
+                    # parses[0].draw()
                     prod_number = len(parses[0].productions())
-                    print(prod_number)
+                    # print(prod_number)
                     p += reduce(lambda a,b:a+b.prob(), list(filter(lambda x: x.label() == 'S', parses)), 0.0)
                     out_probs.append(np.log(p/prod_number))
             except:
@@ -35,7 +35,7 @@ class SymbolicModel:
                 c_labels.append(labels[i])
             except:
                 pass
-        print("Coverage Rate: %.4f%" % (len(c_inputs)/len(inputs)))
+        print("Coverage Rate: %.2f" % (100.0*len(c_inputs)/len(inputs)))
         return c_inputs, c_labels
 
     def accuracy_proto(inputs, labels):
