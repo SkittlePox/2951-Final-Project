@@ -6,11 +6,17 @@ import pickle
 import matplotlib.pyplot as plt
 import numpy as np
 
-def visualize_results(probs, labels):
+def visualize_results(probs, labels, title):
     y = np.random.rand(len(probs))
     plt.scatter(probs, y, c=labels, alpha=0.9)
-    plt.savefig("results/fig1")
+    plt.savefig("results/%s" % title)
     plt.show()
+
+def export_results(probs, labels, inputs):
+    sents = list(map(lambda x: " ".join(x), inputs))
+    with open("results/res.txt", "w") as filehandle:
+        for i in range(len(probs)):
+            filehandle.write("%s\t%s\t%s\n" % (sents[i], labels[i], probs[i]))
 
 TESTING = True
 
@@ -42,13 +48,15 @@ def main():
     print("Examples filtered for coverage in %.1fs" % (time.time()-t))
 
     t = time.time()
-    probs = sym.produce_normalized_log_probs(test_inputs[0:10])
-    labels = test_labels[0:10]
+    probs = sym.produce_normalized_log_probs(train_inputs[:3])
+    labels = train_labels[:3]
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
     # probs = sym.produce_normalized_log_probs(["John John John John .".split()])
     if TESTING:
         print(probs)
-    # visualize_results(probs, labels)
+
+    visualize_results(probs, labels, "fig4")
+    export_results(probs, labels, train_inputs[:3])
 
 def test():
     train_inputs, train_labels, test_inputs, test_labels = load_cola()

@@ -9,7 +9,7 @@ class SymbolicModel:
 
     def produce_normalized_log_probs(self, inputs):
         out_probs = []
-        bar = Bar('Parsing Sentences', max=len(inputs), suffix='[%(index)d / %(max)d] sentences')
+        bar = Bar('Parsing Sentences', max=len(inputs), suffix='[%(index)d / %(max)d] %(eta_td)s')
         for input in inputs:
             try:
                 self.grammar.check_coverage(input)
