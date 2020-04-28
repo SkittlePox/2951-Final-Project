@@ -1,5 +1,6 @@
 from functools import reduce
 import numpy as np
+from progress.bar import Bar
 
 class SymbolicModel:
     def __init__(self, grammar, parser):
@@ -8,6 +9,7 @@ class SymbolicModel:
 
     def produce_normalized_log_probs(self, inputs):
         out_probs = []
+        bar = Bar('Parsing Sentences', max=len(inputs), suffix='[%(index)d / %(max)d] sentences')
         for input in inputs:
             try:
                 self.grammar.check_coverage(input)
@@ -22,6 +24,8 @@ class SymbolicModel:
                     out_probs.append(np.log(p/prod_number))
             except:
                 out_probs.append(None)
+            bar.next()
+        bar.finish()
         return out_probs
 
     def filter_coverage(self, inputs, labels):

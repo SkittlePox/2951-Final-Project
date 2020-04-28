@@ -9,17 +9,26 @@ import numpy as np
 def visualize_results(probs, labels):
     y = np.random.rand(len(probs))
     plt.scatter(probs, y, c=labels, alpha=0.9)
+    plt.savefig("results/fig1")
     plt.show()
+
+TESTING = True
 
 def main():
     t = time.time()
     # grammar = create_pcfg_from_treebank(pickle_it=True, log_it=True, filename="treebank_full", full=True)
-    grammar = pickle.load(open("pickled-vars/treebank_full-grammar.p", "rb"))
+    if TESTING:
+        grammar = pickle.load(open("pickled-vars/treebank-grammar.p", "rb"))
+    else:
+        grammar = pickle.load(open("pickled-vars/treebank_full-grammar.p", "rb"))
     print("Grammar loaded in %.1fs" % (time.time()-t))
 
     t = time.time()
     # parser = create_viterbi_parser(grammar, pickle_it=True, filename="viterbi_full")
-    parser = pickle.load(open("pickled-vars/viterbi_full-parser.p", "rb"))
+    if TESTING:
+        parser = pickle.load(open("pickled-vars/viterbi-parser.p", "rb"))
+    else:
+        parser = pickle.load(open("pickled-vars/viterbi_full-parser.p", "rb"))
     print("Parser loaded in %.1fs" % (time.time()-t))
 
     t = time.time()
@@ -37,8 +46,9 @@ def main():
     labels = test_labels[0:10]
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
     # probs = sym.produce_normalized_log_probs(["John John John John .".split()])
-    print(probs)
-    visualize_results(probs, labels)
+    if TESTING:
+        print(probs)
+    # visualize_results(probs, labels)
 
 def test():
     train_inputs, train_labels, test_inputs, test_labels = load_cola()
