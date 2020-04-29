@@ -1,0 +1,5 @@
+The professor talked us .	0	-37.04131267381279
+Bill bled on the floor .	1	-43.114894897353054
+They made him president .	1	-35.674656322229694
+They made him angry .	1	None
+They caused him to become angry by making him .	0	-78.53630374138505

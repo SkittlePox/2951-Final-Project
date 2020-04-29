@@ -5,12 +5,26 @@ import time
 import pickle
 import matplotlib.pyplot as plt
 import numpy as np
+from signal import signal, SIGINT
+from sys import exit
+
+def exit_handler(signal_received, frame):
+    # Handle any cleanup here
+    print('Early Exit, Saving Entries')
+    if sym is not None:
+        probs = sym.out_probs
+        labels = lab[:len(probs)]
+        inputs = inp[:len(probs)]
+        visualize_results(probs, labels, "early-exit")
+        export_results(probs, labels, inputs)
+    exit(0)
 
 def visualize_results(probs, labels, title):
     y = np.random.rand(len(probs))
     plt.scatter(probs, y, c=labels, alpha=0.9)
     plt.savefig("results/%s" % title)
-    plt.show()
+    if TESTING:
+        plt.show()
 
 def export_results(probs, labels, inputs):
     sents = list(map(lambda x: " ".join(x), inputs))
@@ -19,8 +33,11 @@ def export_results(probs, labels, inputs):
             filehandle.write("%s\t%s\t%s\n" % (sents[i], labels[i], probs[i]))
 
 TESTING = True
+sym = None
+lab = None
 
 def main():
+    signal(SIGINT, exit_handler)
     t = time.time()
     # grammar = create_pcfg_from_treebank(pickle_it=True, log_it=True, filename="treebank_full", full=True)
     if TESTING:
@@ -41,6 +58,7 @@ def main():
     train_inputs, train_labels, test_inputs, test_labels = load_cola()
     print("CoLA loaded in %.1fs" % (time.time()-t))
 
+    global sym
     sym = SymbolicModel(grammar, parser)
     t = time.time()
     train_inputs, train_labels = sym.filter_coverage(train_inputs, train_labels)
@@ -48,15 +66,18 @@ def main():
     print("Examples filtered for coverage in %.1fs" % (time.time()-t))
 
     t = time.time()
-    probs = sym.produce_normalized_log_probs(train_inputs[:3])
-    labels = train_labels[:3]
+    global lab
+    lab = train_labels[:5]
+    global inp
+    inp = train_inputs[:5]
+    probs = sym.produce_normalized_log_probs(inp)
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
     # probs = sym.produce_normalized_log_probs(["John John John John .".split()])
     if TESTING:
         print(probs)
 
-    visualize_results(probs, labels, "fig4")
-    export_results(probs, labels, train_inputs[:3])
+    visualize_results(probs, lab, "fig4")
+    export_results(probs, lab, inp)
 
 def test():
     train_inputs, train_labels, test_inputs, test_labels = load_cola()

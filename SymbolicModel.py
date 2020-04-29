@@ -6,9 +6,10 @@ class SymbolicModel:
     def __init__(self, grammar, parser):
         self.grammar = grammar
         self.parser = parser
+        self.out_probs = None
 
     def produce_normalized_log_probs(self, inputs):
-        out_probs = []
+        self.out_probs = []
         bar = Bar('Parsing Sentences', max=len(inputs), suffix='[%(index)d / %(max)d] %(eta_td)s')
         for input in inputs:
             try:
@@ -21,12 +22,12 @@ class SymbolicModel:
                     prod_number = len(parses[0].productions())
                     # print(prod_number)
                     p += reduce(lambda a,b:a+b.prob(), list(filter(lambda x: x.label() == 'S', parses)), 0.0)
-                    out_probs.append(np.log(p/prod_number))
+                    self.out_probs.append(np.log(p/prod_number))
             except:
-                out_probs.append(None)
+                self.out_probs.append(None)
             bar.next()
         bar.finish()
-        return out_probs
+        return self.out_probs
 
     def filter_coverage(self, inputs, labels):
         c_inputs = []
