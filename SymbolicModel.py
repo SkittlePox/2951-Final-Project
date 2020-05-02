@@ -31,7 +31,7 @@ class SymbolicModel:
                         self.out_probs.append(np.log(p))
                     elif loss_func == 'log-mult':
                         self.out_probs.append(np.log(p*prod_number))
-                    else loss_func == 'linear':
+                    elif loss_func == 'linear':
                         self.out_probs.append(p)
             except:
                 self.out_prods.append(None)
