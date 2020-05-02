@@ -1,3 +1,21 @@
-The professor talked us .	0	-34.84408809647657	9
-Bill bled on the floor .	1	None	None
-They made him president .	1	-33.372071229235644	10
+Day by day the facts are getting murkier .	1	-76.00682291056461	17
+Fred watered the plants flat .	1	-50.6314266497546	11
+Bill coughed his way out of the restaurant .	1	-56.40987201332763	16
+Herman hammered the metal flat .	1	-50.028714874316464	11
+The critics laughed the play off the stage .	1	-57.778589103746114	15
+The pond froze solid .	1	-42.90017135910661	9
+Bill rolled out of the room .	1	-40.79654085969838	13
+The gardener watered the flowers flat .	1	-56.886682013656	12
+The gardener watered the flowers .	1	-45.06322428495708	10
+Bill broke the bathtub into pieces .	1	-54.28731139374492	13
+Bill broke the bathtub .	1	-36.985830406781794	9
+They drank the pub dry .	1	-46.448883139087414	11
+They drank the pub .	0	-33.739502913348225	9
+The professor talked us into a stupor .	1	-54.91600274783362	14
+The professor talked us .	0	-34.71720085494046	9
+We yelled ourselves hoarse .	1	-44.23129389254878	11
+We yelled ourselves .	0	-29.815658138525777	8
+We yelled Harry hoarse .	0	-46.83100092920266	11
+Harry coughed himself into a fit .	1	-53.849208369735884	13
+Harry coughed himself .	0	-35.16031479392978	8
+Harry coughed us into a fit .	0	-53.7140825042782	13
