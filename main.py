@@ -32,7 +32,7 @@ def export_results(probs, labels, inputs):
         for i in range(len(probs)):
             filehandle.write("%s\t%s\t%s\n" % (sents[i], labels[i], probs[i]))
 
-TESTING = True
+TESTING = False
 sym = None
 lab = None
 
@@ -67,9 +67,9 @@ def main():
 
     t = time.time()
     global lab
-    lab = train_labels[:5]
+    lab = train_labels
     global inp
-    inp = train_inputs[:5]
+    inp = train_inputs
     probs = sym.produce_normalized_log_probs(inp)
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
     # probs = sym.produce_normalized_log_probs(["John John John John .".split()])
