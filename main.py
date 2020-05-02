@@ -66,12 +66,12 @@ def main():
     test_inputs, test_labels = sym.filter_coverage(test_inputs, test_labels)
     print("Examples filtered for coverage in %.1fs" % (time.time()-t))
 
-    t = time.time()
     global lab
-    lab = train_labels[:100]
     global inp
-    inp = train_inputs[:100]
-    probs, prods = sym.produce_normalized_log_probs(inp, 'log')
+    t = time.time()
+    lab = train_labels[:30]
+    inp = train_inputs[:30]
+    probs, prods = sym.produce_normalized_log_probs(inp, 'log-mult')
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
     # probs, prods = sym.produce_normalized_log_probs(["John John John John .".split()])
     if TESTING:

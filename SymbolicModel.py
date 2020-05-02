@@ -9,7 +9,7 @@ class SymbolicModel:
         self.out_probs = None
         self.out_prods = None
 
-    def produce_normalized_log_probs(self, inputs, loss_func='log-norm'):
+    def produce_normalized_log_probs(self, inputs, loss_func='log-mult'):
         self.out_probs = []
         self.out_prods = []
         bar = Bar('Parsing Sentences', max=len(inputs), suffix='[%(index)d / %(max)d] %(eta_td)s')
@@ -29,6 +29,8 @@ class SymbolicModel:
                         self.out_probs.append(np.log(p/prod_number))
                     elif loss_func == 'log':
                         self.out_probs.append(np.log(p))
+                    elif loss_func == 'log-mult':
+                        self.out_probs.append(np.log(p*prod_number))
                     elif loss_func == 'linear':
                         self.out_probs.append(p)
             except:
