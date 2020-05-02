@@ -2,7 +2,6 @@ import tensorflow as tf
 import numpy as np
 from preprocess import get_data
 
-# from timeit import default_timer as timer
 
 class Model(tf.keras.Model):
     def __init__(self, vocab_size):
@@ -20,7 +19,7 @@ class Model(tf.keras.Model):
 
         self.vocab_size = vocab_size
         self.rnn_size = 256
-        self.window_size = 20
+        self.window_size = 4
         self.embedding_size = 40
         self.batch_size = 64
         self.learning_rate = 0.01

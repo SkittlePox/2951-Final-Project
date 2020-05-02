@@ -71,13 +71,13 @@ def main():
     t = time.time()
     lab = train_labels[:30]
     inp = train_inputs[:30]
-    probs, prods = sym.produce_normalized_log_probs(inp, 'log-mult')
+    probs, prods = sym.produce_normalized_log_probs(inp, 'log')
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
     # probs, prods = sym.produce_normalized_log_probs(["John John John John .".split()])
     if TESTING:
         print(probs)
 
-    visualize_results(probs, lab, "fig4")
+    visualize_results(probs, lab, "fig5")
     export_results(probs, lab, inp, prods)
 
 def test():
