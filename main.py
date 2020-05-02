@@ -13,10 +13,11 @@ def exit_handler(signal_received, frame):
     print('Early Exit, Saving Entries')
     if sym is not None:
         probs = sym.out_probs
+        prods = sym.out_prods
         labels = lab[:len(probs)]
         inputs = inp[:len(probs)]
         visualize_results(probs, labels, "early-exit")
-        export_results(probs, labels, inputs)
+        export_results(probs, labels, inputs, prods)
     exit(0)
 
 def visualize_results(probs, labels, title):
@@ -26,11 +27,11 @@ def visualize_results(probs, labels, title):
     if TESTING:
         plt.show()
 
-def export_results(probs, labels, inputs):
+def export_results(probs, labels, inputs, prods):
     sents = list(map(lambda x: " ".join(x), inputs))
     with open("results/res.txt", "w") as filehandle:
         for i in range(len(probs)):
-            filehandle.write("%s\t%s\t%s\n" % (sents[i], labels[i], probs[i]))
+            filehandle.write("%s\t%s\t%s\t%s\n" % (sents[i], labels[i], probs[i], prods[i]))
 
 TESTING = False
 sym = None
@@ -67,17 +68,17 @@ def main():
 
     t = time.time()
     global lab
-    lab = train_labels
+    lab = train_labels[:100]
     global inp
-    inp = train_inputs
-    probs = sym.produce_normalized_log_probs(inp)
+    inp = train_inputs[:100]
+    probs, prods = sym.produce_normalized_log_probs(inp, 'log')
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
-    # probs = sym.produce_normalized_log_probs(["John John John John .".split()])
+    # probs, prods = sym.produce_normalized_log_probs(["John John John John .".split()])
     if TESTING:
         print(probs)
 
     visualize_results(probs, lab, "fig4")
-    export_results(probs, lab, inp)
+    export_results(probs, lab, inp, prods)
 
 def test():
     train_inputs, train_labels, test_inputs, test_labels = load_cola()
