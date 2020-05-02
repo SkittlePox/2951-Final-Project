@@ -54,7 +54,7 @@ class SymbolicModel:
         print("Coverage Rate: %.2f" % (100.0*len(c_inputs)/len(inputs)))
         return c_inputs, c_labels
 
-    def accuracy_proto(inputs, labels, loss_func='linear', prob_threshold):
+    def accuracy_proto(inputs, labels, prob_threshold, loss_func='linear'):
         """
         inputs: a list of inputs (which are lists of words)
         labels: a list of 0 or 1 for each input
