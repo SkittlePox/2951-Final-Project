@@ -71,7 +71,7 @@ def main():
     t = time.time()
     lab = train_labels[:30]
     inp = train_inputs[:30]
-    probs, prods = sym.produce_normalized_log_probs(inp, 'log')
+    probs, prods = sym.produce_normalized_log_probs(inp, 'prod-root')
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
     # probs, prods = sym.produce_normalized_log_probs(["John John John John .".split()])
     if TESTING:

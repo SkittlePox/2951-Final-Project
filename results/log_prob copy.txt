@@ -1,0 +1,30 @@
+Day by day the facts are getting murkier .	1	-76.00682291	17	-4.470989583
+Fred watered the plants flat .	1	-50.63142665	11	-4.602856968
+Bill coughed his way out of the restaurant .	1	-56.40987201	16	-3.525617001
+Herman hammered the metal flat .	1	-50.02871487	11	-4.548064989
+The critics laughed the play off the stage .	1	-57.7785891	15	-3.85190594
+The pond froze solid .	1	-42.90017136	9	-4.766685707
+Bill rolled out of the room .	1	-40.79654086	13	-3.138195451
+The gardener watered the flowers flat .	1	-56.88668201	12	-4.740556834
+The gardener watered the flowers .	1	-45.06322428	10	-4.506322428
+Bill broke the bathtub into pieces .	1	-54.28731139	13	-4.17594703
+Bill broke the bathtub .	1	-36.98583041	9	-4.109536712
+They drank the pub dry .	1	-46.44888314	11	-4.22262574
+They drank the pub .	0	-33.73950291	9	-3.748833657
+The professor talked us into a stupor .	1	-54.91600275	14	-3.922571625
+The professor talked us .	0	-34.71720085	9	-3.857466762
+We yelled ourselves hoarse .	1	-44.23129389	11	-4.021026718
+We yelled ourselves .	0	-29.81565814	8	-3.726957267
+We yelled Harry hoarse .	0	-46.83100093	11	-4.257363721
+Harry coughed himself into a fit .	1	-53.84920837	13	-4.142246798
+Harry coughed himself .	0	-35.16031479	8	-4.395039349
+Harry coughed us into a fit .	0	-53.7140825	13	-4.1318525
+Bill followed the road into the forest .	1	-49.26420292	14	-3.518871637
+Fred tracked the leak to its source .	1	-56.46814847	14	-4.033439177
+Bill coughed out the window .	1	-41.29726778	11	-3.754297071
+Bill bled on the floor .	1	-40.6680379	11	-3.697094355
+The toilet leaked through the floor into the kitchen below .	1	-76.59856031	19	-4.031503174
+Bill ate off the floor .	1	-39.88452653	11	-3.625866048
+Bill drank from the hose .	1	-43.03432907	11	-3.912211734
+They made him president .	1	-32.20578642	10	-3.220578642
+They made him angry .	1	-34.44216435	11	-3.13110585

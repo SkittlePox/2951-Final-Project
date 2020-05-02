@@ -79,9 +79,10 @@ def PCFG_Section():
     productions = []
     for item in treebank.fileids()[:2]:
       for tree in treebank.parsed_sents(item):
+        print(" ".join(tree.leaves()))
         # perform optional tree transformations, e.g.:
-        tree.collapse_unary(collapsePOS = False)# Remove branches A-B-C into A-B+C
-        tree.chomsky_normal_form(horzMarkov = 2)# Remove A->(B,C,D) into A->B,C+D->D
+        # tree.collapse_unary(collapsePOS = False)# Remove branches A-B-C into A-B+C
+        # tree.chomsky_normal_form(horzMarkov = 2)# Remove A->(B,C,D) into A->B,C+D->D
         productions += tree.productions()
 
     S = Nonterminal('S')
@@ -168,7 +169,7 @@ def main():
             lp = len(parses)
             print(lp)
             print(parses[0].label())
-            parses[0].draw()
+            # parses[0].draw()
             p = reduce(lambda a,b:a+b.prob(), list(filter(lambda x: x.label() == 'S', parses)), 0.0)
         else:
             p = 0
@@ -179,6 +180,6 @@ def main():
 
 if __name__ == "__main__":
     # Parser_Section()
-    main()
-    # PCFG_Section()
+    # main()
+    PCFG_Section()
     # br()

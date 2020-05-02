@@ -16,17 +16,21 @@ class SymbolicModel:
         for input in inputs:
             try:
                 self.grammar.check_coverage(input)
-                p = 10**-50
+                p = 10**-200
                 parses = self.parser.parse_all(input)
                 if parses:
                     # print(len(parses))
                     # parses[0].draw()
                     prod_number = len(parses[0].productions())
                     # print(prod_number)
-                    p += reduce(lambda a,b:a+b.prob(), list(filter(lambda x: x.label() == 'S', parses)), 0.0)
+                    p += reduce(lambda a,b:a+b.prob(), parses, 0.0)
                     self.out_prods.append(prod_number)
                     if loss_func == 'log-norm':
                         self.out_probs.append(np.log(p/prod_number))
+                    if loss_func == 'lin-log-norm':
+                        self.out_probs.append(np.log(p)/prod_number)
+                    if loss_func == 'prod-root':
+                        self.out_probs.append(p**(1/prod_number))
                     elif loss_func == 'log':
                         self.out_probs.append(np.log(p))
                     elif loss_func == 'log-mult':
