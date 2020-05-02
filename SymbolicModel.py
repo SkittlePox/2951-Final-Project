@@ -82,9 +82,15 @@ class SymbolicModel:
                         self.out_probs.append(np.log(p*prod_number))
                     elif loss_func == 'linear':
                         self.out_probs.append(p)
+
+                    self.accurate.append(self.out_probs[-1] > prob_threshold)
             except:
                 self.out_prods.append(None)
                 self.out_probs.append(None)
             bar.next()
         bar.finish()
-        return self.out_probs, self.out_prods
+        count = 0.0
+        for i in range(len(labels)):
+            if labels[i] == self.accurate[i]:
+                count += 1.0
+        return count / len(labels)
