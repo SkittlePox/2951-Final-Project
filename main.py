@@ -25,8 +25,13 @@ def visualize_results(probs, labels, title):
     y = np.random.rand(len(probs))
     plt.scatter(probs, y, c=labels, alpha=0.9)
     plt.savefig("results/%s" % title)
-    if TESTING:
+    if SHOW:
         plt.show()
+
+def export_neural_results(probs, labels, lens):
+    with open("results/neur_res.txt", "w") as filehandle:
+        for i in range(len(probs)):
+            filehandle.write("%s\t%s\t%s\n" % (probs[i], labels[i], lens[i]))
 
 def export_results(probs, labels, inputs, prods):
     sents = list(map(lambda x: " ".join(x), inputs))
@@ -35,6 +40,7 @@ def export_results(probs, labels, inputs, prods):
             filehandle.write("%s\t%s\t%s\t%s\n" % (sents[i], labels[i], probs[i], prods[i]))
 
 TESTING = False
+SHOW = True
 sym = None
 lab = None
 
@@ -95,8 +101,8 @@ def neuro():
     print("Loaded PTB data in %.1fs" % (time.time()-t))
 
     # print(len(training_data))
-    training = training_data[:8000]
-    testing = training_data[8000:10000]
+    training = training_data[:80000]
+    testing = training_data[80000:100000]
 
     w_size = 4
 
@@ -130,6 +136,43 @@ def neuro():
 
     train_inputs, train_labels, test_inputs, test_labels = load_cola()
     train_inputs_id = make_words_into_ids(train_inputs, w2id)
+
+    new_inputs, new_labels = filter_window_size(train_inputs_id, train_labels, w_size)
+    # print(len(new_inputs[1]))
+    print(len(new_inputs))
+
+    cola_train_x = []
+    cola_train_y = []
+    cola_lens = []
+
+    for ex in new_inputs[:1000]:
+        t_x = []
+        t_y = []
+        # print(len(ex))
+        cola_lens.append(len(ex))
+        for i in range(0, len(ex) - (w_size), w_size):
+            t_x.append(ex[i:i+w_size])
+            t_y.append(ex[i+1:i+(w_size+1)])
+        cola_train_x.append(np.array(t_x))
+        # print(len(t_x))
+        cola_train_y.append(np.array(t_y))
+
+    cola_train_x = np.array(cola_train_x)
+    cola_train_y = np.array(cola_train_y)
+
+    # print(np.shape(cola_train_x))
+    # print(cola_train_x[0])
+    # print(cola_train_y[0])
+    # print(np.shape(cola_train_y))
+
+    pps = []
+    for i in range(len(cola_train_x)):
+        pps.append(test(model, cola_train_x[i], cola_train_y[i]))
+    # print(pps)
+    # print(new_labels[:1000])
+
+    visualize_results(pps, new_labels[:1000], "neur1")
+    export_neural_results(pps, new_labels[:1000], cola_lens)
 
 
     # pickle.dump(model, open("pickled-vars/neural_model.p", "wb"))

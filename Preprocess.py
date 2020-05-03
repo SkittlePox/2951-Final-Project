@@ -161,3 +161,12 @@ def avg_sent_len(inputs, labels):
             f_sum += len(inputs[i])
     print("Average length of grammatical sentences: %s" % (t_sum / t_count))
     print("Average length of ungrammatical sentences: %s" % (f_sum / f_count))
+
+def filter_window_size(inputs, labels, w_size):
+    new_inputs = []
+    new_labels = []
+    for i in range(len(inputs)):
+        if len(inputs[i]) > w_size:
+            new_inputs.append(inputs[i])
+            new_labels.append(labels[i])
+    return new_inputs, new_labels
