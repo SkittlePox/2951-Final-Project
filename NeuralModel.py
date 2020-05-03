@@ -19,7 +19,7 @@ class Model(tf.keras.Model):
 
         self.vocab_size = vocab_size
         self.rnn_size = 256
-        self.window_size = 20
+        self.window_size = 4
         self.embedding_size = 40
         self.batch_size = 64
         self.learning_rate = 0.01
@@ -121,6 +121,13 @@ def test(model, test_inputs, test_labels):
         total += model.loss(probs, test_labels[i:i+model.batch_size])
         count += 1
     return(np.exp(total/count))
+
+def calc_individual_perplexity(model, test_inputs, test_labels):
+    losses = np.zeros((len(test_labels)))
+    for i in range(len(test_labels)):
+        probs, _ = model.call(test_inputs[i], None)
+        losses[i] = model.loss(probs, test_labels[i])
+    return(np.exp(losses))
 
 def generate_sentence(word1, length, vocab, model):
     """

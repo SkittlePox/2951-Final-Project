@@ -6,6 +6,7 @@ import nltk
 from nltk import Nonterminal, induce_pcfg
 from nltk.corpus import treebank, ptb
 from nltk.parse import ViterbiParser
+import numpy as np
 
 var_dir = "pickled-vars/"
 data_dir = "data/"
@@ -92,6 +93,27 @@ def get_ptb_data(w2id):
         all_words_id.append(id)
     return all_words_id
 
+def make_words_into_ids(inputs, w2id):
+    def list_words_to_id(all_words):
+        all_words_id = []
+        for w in all_words:
+            id = w2id.get(w)
+            if id == None:
+                id = w2id.get("<unk>")
+            all_words_id.append(id)
+        return all_words_id
+    outputs = []
+    for all_words in inputs:
+        outputs.append(list_words_to_id(all_words))
+    return np.array(outputs)
+
+# def get_embeddings(embedding_file):
+#     emb = open(embedding_file, "r")
+#     emb_str = emb.read().split("\n")
+#     emb_str = list(map(lambda x: x.split(','), emb_str))
+#     emb_str = emb_str[:][1:]
+#     print(emb_str[0])
+
 
 #####################  Dataset Preprocessing Below   ##########################
 
@@ -115,8 +137,8 @@ def load_cola():
             l = f.readline()
         return inputs, labels
 
-    tr = open("%scola-raw_in_domain_train.tsv" % data_dir)
-    te = open("%scola-raw_in_domain_dev.tsv" % data_dir)
+    tr = open("%scola-tokenized_in_domain_train.tsv" % data_dir)
+    te = open("%scola-tokenized_in_domain_dev.tsv" % data_dir)
     # val = open("%s/cola-raw_out_of_domain_dev.tsv" % data_dir)
     train_inputs, train_labels = get_train_test(tr)
     test_inputs, test_labels = get_train_test(te)

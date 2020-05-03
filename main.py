@@ -1,6 +1,6 @@
 from Preprocess import *
 from SymbolicModel import SymbolicModel
-from NeuralModel import Model, train, generate_sentence
+from NeuralModel import Model, train, generate_sentence, test
 
 import time
 import pickle
@@ -84,49 +84,75 @@ def symbo():
 
 def neuro():
     # w2id = get_ptb_w2id("data/ptb.csv")
-    # training_data = get_ptb_data(w2id)
+    # training = get_ptb_data(w2id)
     #
     # pickle.dump(w2id, open("pickled-vars/w2id.p", "wb"))
-    # pickle.dump(training_data, open("pickled-vars/ptb_training_id.p", "wb"))
+    # pickle.dump(training, open("pickled-vars/ptb_training_id.p", "wb"))
 
-    training = pickle.load(open("pickled-vars/ptb_training_id.p", "rb"))
+    t = time.time()
+    training_data = pickle.load(open("pickled-vars/ptb_training_id.p", "rb"))
     w2id = pickle.load(open("pickled-vars/w2id.p", "rb"))
+    print("Loaded PTB data in %.1fs" % (time.time()-t))
 
+    # print(len(training_data))
+    training = training_data[:8000]
+    testing = training_data[8000:10000]
+
+    w_size = 4
+
+    t = time.time()
     train_x = []
     train_y = []
-    for i in range(0, len(training) - 21, 20):
-        train_x.append(training[i:i+20])
-        train_y.append(training[i+1:i+21])
+    for i in range(0, len(training) - (w_size+1), w_size):
+        train_x.append(training[i:i+w_size])
+        train_y.append(training[i+1:i+(w_size+1)])
     train_x = np.array(train_x)
     train_y = np.array(train_y)
 
+    test_x = []
+    test_y = []
+    for i in range(0, len(testing) - (w_size+1), w_size):
+        test_x.append(testing[i:i+w_size])
+        test_y.append(testing[i+1:i+(w_size+1)])
+    test_x = np.array(test_x)
+    test_y = np.array(test_y)
+    print("Created training and testing data in %.1fs" % (time.time()-t))
+
     model = Model(len(w2id))
 
-    # TODO: Set-up the training step
+    # Set-up the training step
     print("Training")
     t = time.time()
     train(model, train_x, train_y)
     print("Training completed in %.1fs" % (time.time()-t))
 
+    print(test(model, test_x, test_y))
+
+    train_inputs, train_labels, test_inputs, test_labels = load_cola()
+    train_inputs_id = make_words_into_ids(train_inputs, w2id)
+
+
     # pickle.dump(model, open("pickled-vars/neural_model.p", "wb"))
 
-    print(generate_sentence("john", 6, w2id, model))
-    print(generate_sentence("the", 6, w2id, model))
-    print(generate_sentence("executive", 6, w2id, model))
+    # print(generate_sentence("john", 6, w2id, model))
+    # print(generate_sentence("the", 6, w2id, model))
+    # print(generate_sentence("executive", 6, w2id, model))
 
     # print("batch_size:", model.batch_size)
     # print("embedding_size:", model.embedding_size)
     # print("learning_rate:", model.learning_rate)
 
 
-def test():
-    # train_inputs, train_labels, test_inputs, test_labels = load_cola()
+def testing():
+    train_inputs, train_labels, test_inputs, test_labels = load_cola()
+    print(train_inputs)
     # print(len(train_labels), len(test_labels))
     # print(test_inputs[5:10])
     # avg_sent_len(train_inputs, train_labels)
     grammar = pickle.load(open("pickled-vars/treebank-grammar.p", "rb"))
+    get_embeddings("data/ptb.csv")
 
 if __name__ == "__main__":
-    # neuro()
-    # test()
-    symbo()
+    neuro()
+    # testing()
+    # symbo()
