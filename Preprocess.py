@@ -59,10 +59,38 @@ def create_viterbi_parser(grammar, pickle_it=False, filename="viterbi"):
         pickle.dump(parser, open("%s%s-parser.p" % (var_dir, filename), "wb"))
     return parser
 
+# def generate_prod_tree(grammar):
+#     grammar_prods = grammar.productions()
+#     g_tree = dict()
+#     for p in grammar_prods:
+#         if p.lhs() in g_tree:
+#             g_tree.update({g_tree[p.lhs]})
+
 
 #####################   Neural Preprocessing Below   ##########################
 
+def get_ptb_w2id(embedding_file):
+    ptb_emb = open(embedding_file, "r")
+    ptb_str = ptb_emb.read()
+    ptb_ln = ptb_str.split('\n')
+    ptb_ln = ptb_ln[1:-1]
+    vocabSet = set(list(map(lambda x: x.split(',')[0][1:-1], ptb_ln)))
+    vocabDict = {word:i for i, word in enumerate(vocabSet)}
+    ptb_emb.close()
+    return vocabDict
 
+def get_ptb_data(w2id):
+    all_words = []
+    for item in ptb.fileids():
+        all_words.extend(list(map(str.lower, ptb.words(item))))
+    # print(all_words)
+    all_words_id = []
+    for w in all_words:
+        id = w2id.get(w)
+        if id == None:
+            id = w2id.get("<unk>")
+        all_words_id.append(id)
+    return all_words_id
 
 
 #####################  Dataset Preprocessing Below   ##########################
@@ -95,3 +123,19 @@ def load_cola():
     # validation_inputs, validation_labels = get_train_test(val)
 
     return train_inputs, train_labels, test_inputs, test_labels
+
+def avg_sent_len(inputs, labels):
+    t_count = 0
+    f_count = 0
+    t_sum = 0
+    f_sum = 0
+
+    for i in range(len(inputs)):
+        if labels[i] == 1:
+            t_count += 1
+            t_sum += len(inputs[i])
+        if labels[i] == 0:
+            f_count += 1
+            f_sum += len(inputs[i])
+    print("Average length of grammatical sentences: %s" % (t_sum / t_count))
+    print("Average length of ungrammatical sentences: %s" % (f_sum / f_count))

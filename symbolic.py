@@ -79,25 +79,28 @@ def PCFG_Section():
     productions = []
     for item in treebank.fileids()[:2]:
       for tree in treebank.parsed_sents(item):
-        print(" ".join(tree.leaves()))
+        # print(" ".join(tree.leaves()))
         # perform optional tree transformations, e.g.:
         # tree.collapse_unary(collapsePOS = False)# Remove branches A-B-C into A-B+C
         # tree.chomsky_normal_form(horzMarkov = 2)# Remove A->(B,C,D) into A->B,C+D->D
-        productions += tree.productions()
+        prods = tree.productions()
+        # print(prods[0].prob())
+        productions += prods
 
     S = Nonterminal('S')
     grammar = induce_pcfg(S, productions)
-    print(grammar)    # This is a PCFG
+    # print(grammar)    # This is a PCFG
 
     ### Parsing section below ###
 
     print("\nParse sentence using induced grammar:")
 
     parser = pchart.InsideChartParser(grammar)
-    parser.trace(3)
+    parser.trace(1)
 
-    sent = treebank.parsed_sents('wsj_0001.mrg')[0].leaves()
-    print(sent)
+    sent = treebank.parsed_sents('wsj_0001.mrg')[0]
+    print(sent.prob())
+    # print(sent)
 
     # for parse in parser.parse(sent):
     #   print(parse)

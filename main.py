@@ -1,5 +1,6 @@
 from Preprocess import *
 from SymbolicModel import SymbolicModel
+from NeuralModel import Model, train, generate_sentence
 
 import time
 import pickle
@@ -37,8 +38,9 @@ TESTING = False
 sym = None
 lab = None
 
-def main():
-    signal(SIGINT, exit_handler)
+def symbo():
+    if not TESTING:
+        signal(SIGINT, exit_handler)
     t = time.time()
     # grammar = create_pcfg_from_treebank(pickle_it=True, log_it=True, filename="treebank_full", full=True)
     if TESTING:
@@ -69,9 +71,9 @@ def main():
     global lab
     global inp
     t = time.time()
-    lab = train_labels[:30]
-    inp = train_inputs[:30]
-    probs, prods = sym.produce_normalized_log_probs(inp, 'prod-root')
+    lab = train_labels[:20]
+    inp = train_inputs[:20]
+    probs, prods = sym.produce_normalized_log_probs(inp, 'sum-norm')
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
     # probs, prods = sym.produce_normalized_log_probs(["John John John John .".split()])
     if TESTING:
@@ -80,10 +82,51 @@ def main():
     visualize_results(probs, lab, "fig5")
     export_results(probs, lab, inp, prods)
 
+def neuro():
+    # w2id = get_ptb_w2id("data/ptb.csv")
+    # training_data = get_ptb_data(w2id)
+    #
+    # pickle.dump(w2id, open("pickled-vars/w2id.p", "wb"))
+    # pickle.dump(training_data, open("pickled-vars/ptb_training_id.p", "wb"))
+
+    training = pickle.load(open("pickled-vars/ptb_training_id.p", "rb"))
+    w2id = pickle.load(open("pickled-vars/w2id.p", "rb"))
+
+    train_x = []
+    train_y = []
+    for i in range(0, len(training) - 21, 20):
+        train_x.append(training[i:i+20])
+        train_y.append(training[i+1:i+21])
+    train_x = np.array(train_x)
+    train_y = np.array(train_y)
+
+    model = Model(len(w2id))
+
+    # TODO: Set-up the training step
+    print("Training")
+    t = time.time()
+    train(model, train_x, train_y)
+    print("Training completed in %.1fs" % (time.time()-t))
+
+    # pickle.dump(model, open("pickled-vars/neural_model.p", "wb"))
+
+    print(generate_sentence("john", 6, w2id, model))
+    print(generate_sentence("the", 6, w2id, model))
+    print(generate_sentence("executive", 6, w2id, model))
+
+    # print("batch_size:", model.batch_size)
+    # print("embedding_size:", model.embedding_size)
+    # print("learning_rate:", model.learning_rate)
+
+
 def test():
-    train_inputs, train_labels, test_inputs, test_labels = load_cola()
-    print(len(train_labels), len(test_labels))
-    print(test_inputs[5:10])
+    # train_inputs, train_labels, test_inputs, test_labels = load_cola()
+    # print(len(train_labels), len(test_labels))
+    # print(test_inputs[5:10])
+    # avg_sent_len(train_inputs, train_labels)
+    grammar = pickle.load(open("pickled-vars/treebank-grammar.p", "rb"))
 
 if __name__ == "__main__":
-    main()
+    # neuro()
+    # test()
+    symbo()

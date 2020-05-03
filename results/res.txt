@@ -1,30 +1,20 @@
-Day by day the facts are getting murkier .	1	0.011435993384821213	17
-Fred watered the plants flat .	1	0.010023158953811324	11
-Bill coughed his way out of the restaurant .	1	0.029433641184279775	16
-Herman hammered the metal flat .	1	0.010587671841069398	11
-The critics laughed the play off the stage .	1	0.021239217158124834	15
-The pond froze solid .	1	0.008508533256263714	9
-Bill rolled out of the room .	1	0.04336097435804793	13
-The gardener watered the flowers flat .	1	0.008733781560565554	12
-The gardener watered the flowers .	1	0.01103898226531116	10
-Bill broke the bathtub into pieces .	1	0.01536063777540937	13
-Bill broke the bathtub .	1	0.016415377814678944	9
-They drank the pub dry .	1	0.014660100312955868	11
-They drank the pub .	0	0.02354519161582717	9
-The professor talked us into a stupor .	1	0.01979013644306873	14
-The professor talked us .	0	0.021121437444097207	9
-We yelled ourselves hoarse .	1	0.01793454177545388	11
-We yelled ourselves .	0	0.024065950800733878	8
-We yelled Harry hoarse .	0	0.014159581859674102	11
-Harry coughed himself into a fit .	1	0.015887116238808723	13
-Harry coughed himself .	0	0.012338394809404594	8
-Harry coughed us into a fit .	0	0.016053112863513783	13
-Bill followed the road into the forest .	1	0.029632852928391216	14
-Fred tracked the leak to its source .	1	0.017713305888351287	14
-Bill coughed out the window .	1	0.02341690524549976	11
-Bill bled on the floor .	1	0.024795468740298848	11
-The toilet leaked through the floor into the kitchen below .	1	0.017747632108804822	19
-Bill ate off the floor .	1	0.02662602792927771	11
-Bill drank from the hose .	1	0.019996225784230492	11
-They made him president .	1	0.039931945272859724	10
-They made him angry .	1	0.043669478661208336	11
+The professor talked us .	0	-0.9855524701469622	9
+Bill bled on the floor .	1	-0.5815591026928673	11
+They made him president .	1	-0.9356112628877037	10
+They made him angry .	1	-0.8705457117527936	11
+They caused him to become angry by making him .	0	-0.45302358714071017	21
+They caused him to become president by making him .	0	-0.44150139437432223	21
+They made him into a monster .	1	-0.5880619913470497	13
+The building is tall and wide .	1	-0.642893840048791	11
+The building is tall and tall .	0	-0.6428940222020986	11
+This building got than that one .	0	-0.350273188292872	13
+This building is than that one .	0	-0.6347504405500962	12
+Bill floated down the river for hours .	1	-0.36553307550805464	15
+Bill floated down the river .	1	-0.47340215548962755	11
+Bill pushed Harry along the trail for hours .	1	-0.39914428471043506	19
+Bill pushed Harry along the trail .	1	-0.49137910311934374	15
+Bill squeezed himself through the hole .	1	-0.5346052932097977	13
+Bill can well imagine getting fat .	1	-0.8960048138332537	13
+His expectations are always lower than mine .	1	-0.5863836942259247	15
+I know how fast you ran .	1	-0.8147404882432323	15
+I wonder to how many people Bill talks .	1	-0.38310022574570185	20
