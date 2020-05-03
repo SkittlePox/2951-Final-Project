@@ -40,7 +40,7 @@ def export_results(probs, labels, inputs, prods):
             filehandle.write("%s\t%s\t%s\t%s\n" % (sents[i], labels[i], probs[i], prods[i]))
 
 TESTING = False
-SHOW = True
+SHOW = False
 sym = None
 lab = None
 
@@ -77,8 +77,8 @@ def symbo():
     global lab
     global inp
     t = time.time()
-    lab = train_labels[20:50]
-    inp = train_inputs[20:50]
+    lab = train_labels[:200]
+    inp = train_inputs[:200]
     probs, prods = sym.produce_normalized_log_probs(inp, 'sum-norm')
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
     # probs, prods = sym.produce_normalized_log_probs(["John John John John .".split()])
@@ -196,6 +196,6 @@ def testing():
     get_embeddings("data/ptb.csv")
 
 if __name__ == "__main__":
-    neuro()
+    # neuro()
     # testing()
-    # symbo()
+    symbo()
