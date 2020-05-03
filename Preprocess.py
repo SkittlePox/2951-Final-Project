@@ -137,9 +137,10 @@ def load_cola():
             l = f.readline()
         return inputs, labels
 
-    tr = open("%scola-tokenized_in_domain_train.tsv" % data_dir)
-    te = open("%scola-tokenized_in_domain_dev.tsv" % data_dir)
-    # val = open("%s/cola-raw_out_of_domain_dev.tsv" % data_dir)
+    tr = open("%scola-raw_in_domain_train.tsv" % data_dir)
+    te = open("%scola-raw_in_domain_dev.tsv" % data_dir)
+    # tr = open("%scola-tokenized_in_domain_train.tsv" % data_dir)
+    # te = open("%scola-tokenized_in_domain_dev.tsv" % data_dir)
     train_inputs, train_labels = get_train_test(tr)
     test_inputs, test_labels = get_train_test(te)
     # validation_inputs, validation_labels = get_train_test(val)
