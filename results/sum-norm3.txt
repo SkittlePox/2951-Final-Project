@@ -1,0 +1,200 @@
+Day by day the facts are getting murkier .	1	-0.49971109335209807	17
+Fred watered the plants flat .	1	-0.6711358311475287	11
+Bill coughed his way out of the restaurant .	1	-0.3607925543074785	16
+Herman hammered the metal flat .	1	-0.6663829355379448	11
+The critics laughed the play off the stage .	1	-0.4879713130847877	15
+The pond froze solid .	1	-0.9824802259438805	9
+Bill rolled out of the room .	1	-0.3729175394325556	13
+The gardener watered the flowers flat .	1	-0.6682985093128482	12
+The gardener watered the flowers .	1	-0.859956910914259	10
+Bill broke the bathtub into pieces .	1	-0.5626525452257433	13
+Bill broke the bathtub .	1	-0.8564198847469391	9
+They drank the pub dry .	1	-0.6084973511303008	11
+They drank the pub .	0	-0.8228128290378705	9
+The professor talked us into a stupor .	1	-0.6346736538454519	14
+The professor talked us .	0	-1.1050748652913507	9
+We yelled ourselves hoarse .	1	-0.9018928379910767	11
+We yelled ourselves .	0	-1.0569300563214594	8
+We yelled Harry hoarse .	0	-0.9420173893799922	11
+Harry coughed himself into a fit .	1	-0.6372445315222293	13
+Harry coughed himself .	0	-1.112892578646605	8
+Harry coughed us into a fit .	0	-0.6372333698522893	13
+Bill followed the road into the forest .	1	-0.4887555985434082	14
+Fred tracked the leak to its source .	1	-0.4446818635286961	14
+Bill coughed out the window .	1	-0.4952359574049196	11
+Bill bled on the floor .	1	-0.5623601793316109	11
+The toilet leaked through the floor into the kitchen below .	1	-0.33392109932850944	19
+Bill ate off the floor .	1	-0.5053396595188482	11
+Bill drank from the hose .	1	-0.5626185149473332	11
+They made him president .	1	-1.0243706216777408	10
+They made him angry .	1	-0.9002932956370859	11
+They caused him to become angry by making him .	0	-0.4638234215382002	21
+They caused him to become president by making him .	0	-0.46533638148272943	21
+They made him to exhaustion .	0	-0.5092299169099652	12
+They made him into a monster .	1	-0.617641715993515	13
+The trolley rumbled through the tunnel .	1	-0.5611409961190647	12
+The wagon rumbled down the road .	1	-0.5051438226123505	12
+The bullets whistled past the house .	1	-0.5620071705477776	12
+The knee replacement candidate groaned up the stairs .	1	-0.48456128634400353	14
+Bill whistled his way past the house .	1	-0.5358983485408111	14
+The witch vanished into the forest .	1	-0.5611100181396302	12
+Bill disappeared down the road .	1	-0.5067638276849207	11
+The witch went into the forest by vanishing .	0	-0.4179421639228339	16
+The witch went into the forest and thereby vanished .	1	-0.4433408213643583	17
+The building is tall and wide .	1	-0.6713412599166664	11
+The building is tall and tall .	0	-0.6713416558779727	11
+This building is taller and wider than that one .	1	-0.4750003845545917	17
+This building got taller and wider than that one .	1	-0.5022457170806854	17
+This building got taller and taller .	1	-0.7301298188466707	11
+This building is taller and taller .	0	-0.6739345543683233	11
+This building got than that one .	0	-0.6587119506756607	12
+This building is than that one .	0	-0.6554467655160774	12
+Bill floated into the cave .	1	-0.5631096103095238	11
+Bill floated into the cave for hours .	0	-0.41812143997102375	15
+Bill pushed Harry off the sofa for hours .	0	-0.4164642536495021	18
+Bill floated down the river for hours .	1	-0.3849853254392764	16
+Bill floated down the river .	1	-0.5067639648655169	11
+Bill pushed Harry along the trail for hours .	1	-0.4164643306510754	18
+Bill pushed Harry along the trail .	1	-0.5627558023209033	13
+Sam cut himself free .	1	-0.9425029457169725	11
+Sam got free by cutting his finger .	1	-1.0010764848005553	15
+Bill cried himself to sleep .	1	-0.4779985956096916	13
+Bill cried Sue to sleep .	0	-0.48905960799129566	13
+Bill squeezed himself through the hole .	1	-0.562803964142247	13
+Bill sang himself to sleep .	1	-0.4779985956096916	13
+Bill squeezed the puppet through the hole .	1	-0.48878046569468614	14
+Bill sang Sue to sleep .	1	-0.48905960799129566	13
+The elevator rumbled itself to the ground .	0	-0.4176066773676184	14
+She yelled hoarse .	0	-0.944213509747172	8
+Ted cried to sleep .	0	-0.5302524296493774	10
+The tiger bled to death .	1	-0.4702261653670732	11
+John coughed himself awake on the bank of the lake where he and Bill had their play .	1	-0.19594705925748698	33
+She coughed herself awake as the leaf landed on her nose .	1	-0.380481908101442	23
+The chocolate melted onto the carpet .	1	-0.5611590901467387	12
+Bill can well imagine getting fat .	1	-0.9790895381833143	13
+I can well imagine quickly Mary answering the question .	0	-0.5266754304969425	19
+I can well imagine with a hatchet Mary destroying the Jeep .	0	-0.3761249858017124	22
+Mary listens to the Grateful Dead and she gets depressed .	1	-0.322781664780211	21
+Mary gets depressed if she listens to the Grateful Dead .	1	-0.33192402849915204	21
+Mary gets depressed when she listens to the Grateful Dead .	1	-0.32285311311124154	22
+Mary gets depressed and she listens to the Grateful Dead .	1	-0.35375898167957653	20
+His expectations are always lower than mine .	1	-0.6300657471495459	15
+John was lots more obnoxious than Fred was .	1	-0.5073352603185359	20
+The more examples Mary says that Bill has helped Fred to discover the less I believe her .	1	-0.3140219913977201	37
+The more food Mary knows a man that eats the poorer she gets .	0	-0.6598277007817257	25
+The fatter he goes to a doctor when he gets the more he eats .	0	-0.2665730425797462	30
+The more people I ask what he will give to the more he reads .	0	-0.2024124459853608	32
+The more pictures of John that he buys the more arrogant he becomes .	0	-0.32693110137962034	28
+The more pictures of himself that John buys the more arrogant he becomes .	1	-0.32927014637125174	28
+The man that arrived on the train was my brother .	1	-0.5476223790176646	20
+The man arrived on the train was my brother .	0	-0.7155487089734599	18
+So much did you eat that everyone gasped .	1	-0.5653342143456748	19
+So fast did you run that everyone gasped .	1	-0.5653612470430004	19
+So intelligent a dog did you buy that everyone gasped .	1	-0.7708220176896803	21
+I know how much you ate .	1	-0.8403527021315548	15
+I know how fast you ran .	1	-0.840415362599209	15
+I know how intelligent a dog you bought .	1	-0.5514180147897809	18
+He ate so much that he got sick .	1	-0.5987109061914573	19
+So much did he eat that he got sick .	1	-0.42583206580498356	23
+I wonder you ate how much .	0	-0.5834005961113942	15
+I wonder to how many people Bill talks .	1	-0.5019554774540237	15
+He gets angry if John has to wait .	0	-0.3634524878830627	19
+Who did you give pictures of to friends of ?	1	-0.7443826347073715	22
+John saw the man in the room .	1	-0.4837397099163505	14
+Which room did John see the man in ?	1	-0.5590290017764015	19
+Who did John think that Bill claimed that Mary suspected that everybody liked ?	1	-0.8286400225302394	32
+John could not visit Sally .	1	-1.084765375871926	11
+What John could do is not visit Sally .	1	-0.9597686438696549	16
+John couldn't visit Sally .	1	-1.1074139046552407	10
+Why did John leave ?	1	-1.7106370749656785	12
+I hit the ball .	1	-0.8147564962821948	9
+You hit the ball .	1	-0.8230113736246767	9
+He hit the ball .	0	-0.8203249416824938	9
+She hit the ball .	0	-0.8228887377527072	9
+They hit the ball .	1	-0.8228115957714713	9
+Am not I going ?	0	-13.946536665507205	10
+I am not going .	1	-1.0411959864793952	9
+She does not see him .	1	-1.048915618624796	11
+She kept not seeing him .	1	-1.0516336302178777	11
+She could not have been working .	1	-1.005404166535441	13
+He could not have been working .	1	-1.001579596727724	13
+He can simply not have been working .	1	-0.6599951483540193	15
+You must not simply not work .	1	-1.0485312614138693	12
+He may not just not have been working .	1	-1.0097241247031	16
+He can't have been working .	1	-1.0208567715288799	12
+Can he not have been working ?	1	-1.7473502986082672	13
+Can he not have been working ?	0	-1.7473502986082672	13
+John wrote books .	1	-1.1121668135769212	8
+John write books .	0	-1.1102477964772928	8
+John wrote books .	0	-1.1121668135769212	8
+John did not write books .	1	-1.1056639163580897	11
+John seems that is nice .	0	-0.8882310726404954	11
+down the hill rolled John .	1	-0.6019964861794522	11
+John kisses often Mary .	0	-0.5133063374848303	10
+John often kisses Mary .	1	-0.714061326652786	10
+Who do you think Mary said John likes ?	1	-5.042623820959845	18
+Who did you ask whether Mary knows why John likes ?	0	-0.8682155127697814	26
+Who do you think that Mary said that John likes ?	1	-0.7506474837265309	27
+How do you wonder whether Mary solved the problem ?	0	-1.085336284463644	20
+How do you think that Mary solved the problem ?	1	-1.0985550300024143	19
+How do you wonder whether John said that Mary solved the problem ?	0	-0.6775684886279447	28
+How do you wonder whether John said Mary solved the problem ?	0	-0.8850359940921065	25
+Which problem do you wonder whether John said that Mary solved ?	0	-0.5043229649386135	29
+How did you think that Mary solved the problem ?	1	-1.1014397842633048	19
+Mary hired someone .	1	-1.1111003184117652	8
+I heard that Mary hired someone .	1	-0.6674189732371302	16
+I resigned because Mary hired someone .	1	-0.860138881223522	15
+Mary wondered which picture of himself Bill saw ?	1	-0.838575768633925	20
+Which picture of himself does Mary think that John said that Susan likes ?	1	-0.4042185119799938	35
+Mary thinks that John said that Susan likes pictures of himself ?	0	-0.5398817152000793	29
+You might not believe me but you will Bob .	1	-0.7358585057954935	20
+You will Bob believe .	0	-0.8636337709115293	11
+How did you solve the problem ?	1	-1.9650196688479167	14
+I wonder who could solve the problem in this way .	1	-0.42723941731094955	21
+How do you wonder who could solve this problem .	0	-0.5443251560102914	20
+No candidate can predict how many people will vote for him .	1	-0.45301518588615725	24
+Every politician is worried when the press starts attacking him .	1	-0.4640655141753594	22
+Which politician appointed the journalist who supported him ?	1	-1.1359207900396366	19
+The fact that no candidate was elected shows that he was inadequate .	0	-0.4331848895289551	27
+The question of whether John met Mary worries the people who support .	1	-0.43675710001276524	25
+They have left .	1	-0.9259410159046542	8
+Have they left ?	1	-14.691264763698607	8
+Could they have left ?	1	-5.065271668562487	10
+He has often seen Mary .	1	-1.0311140904397074	11
+He I often sees Mary .	1	-1.0614724699790974	12
+He sees often Mary .	0	-1.0543361785383432	9
+Sees he I often Mary ?	0	-0.8771245062831636	13
+It seems that it is likely that John will win .	1	-0.4397542839863398	26
+It seems that John is likely to win .	1	-0.38659350067000137	19
+John seems to be likely to win .	1	-0.2926021339488296	16
+John seems that it is likely to win .	0	-0.38206989188201385	19
+John seems will win .	0	-1.0478941195441875	10
+How do you wonder which problem to solve ?	0	-0.4309609721081365	19
+How intelligent do you consider John ?	1	-1.2349994218027929	16
+How many people do you wonder whether I consider intelligent ?	0	-0.845347807812048	24
+How intelligent do you wonder whether I consider John ?	0	-6.073122677525213	20
+What the hell do you wonder how to say ?	0	-0.3456963011082825	22
+He has left .	1	-0.9233930572863669	8
+His book is nice .	1	-0.8894720218557817	9
+Bill saw him .	1	-1.1105998301998228	8
+Bill works with him .	1	-0.7122538867177538	10
+John believes him to be a nice guy .	1	-0.46143904395496965	17
+John considers him a nice guy .	1	-0.9966591250100141	13
+For him to do that would be a mistake .	1	-0.4868597904297445	17
+A man to be in the garden is unlikely .	0	-0.38221464319407017	19
+A man to come is unlikely .	0	-0.4728220804111539	13
+John to call would be unlikely .	0	-0.4819513679317116	14
+This conclusion to be arrived at is surprising .	0	-0.46831072018721914	17
+John believes that he is sick .	1	-0.5771495513433849	16
+John believes that him is sick .	0	-0.5838549758624253	16
+John tries him to win .	0	-0.4776261534763526	13
+John wonders where him to go .	0	-0.37414351437919124	16
+Who do you think that Bill likes ?	1	-1.2858577647851608	19
+Who do you think that Bill believes to be innocent ?	1	-0.5265785185609593	25
+Who do you think that believes John to be innocent ?	0	-0.7676651639756242	22
+Who would you prefer for to win the race ?	0	-0.665935053652895	20
+Someone stole my car .	1	-1.1125289903836328	9
+My car was stolen .	1	-1.0862332200666207	9
+The children eat all chocolate .	0	-1.0941553311507846	10
+John has often kissed Mary .	1	-1.0882603365589376	11
+The kids have all eaten the chocolate .	1	-0.8391890878981224	13
