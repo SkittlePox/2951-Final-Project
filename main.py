@@ -35,7 +35,7 @@ def export_neural_results(probs, labels, lens):
 
 def export_results(probs, labels, inputs, prods):
     sents = list(map(lambda x: " ".join(x), inputs))
-    with open("results/res.txt", "w") as filehandle:
+    with open("results/test-res.txt", "w") as filehandle:
         for i in range(len(probs)):
             filehandle.write("%s\t%s\t%s\t%s\n" % (sents[i], labels[i], probs[i], prods[i]))
 
@@ -77,15 +77,15 @@ def symbo():
     global lab
     global inp
     t = time.time()
-    lab = train_labels[:200]
-    inp = train_inputs[:200]
+    lab = test_labels[:200]
+    inp = test_inputs[:200]
     probs, prods = sym.produce_normalized_log_probs(inp, 'sum-norm')
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
     # probs, prods = sym.produce_normalized_log_probs(["John John John John .".split()])
     if TESTING:
         print(probs)
 
-    visualize_results(probs, lab, "sum-norm")
+    visualize_results(probs, lab, "sum-norm-test")
     export_results(probs, lab, inp, prods)
 
 def neuro():
