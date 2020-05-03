@@ -71,15 +71,15 @@ def symbo():
     global lab
     global inp
     t = time.time()
-    lab = train_labels[:20]
-    inp = train_inputs[:20]
+    lab = train_labels[20:50]
+    inp = train_inputs[20:50]
     probs, prods = sym.produce_normalized_log_probs(inp, 'sum-norm')
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
     # probs, prods = sym.produce_normalized_log_probs(["John John John John .".split()])
     if TESTING:
         print(probs)
 
-    visualize_results(probs, lab, "fig5")
+    visualize_results(probs, lab, "sum-norm")
     export_results(probs, lab, inp, prods)
 
 def neuro():
