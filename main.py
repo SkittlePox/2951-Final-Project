@@ -1,6 +1,7 @@
 from Preprocess import *
 from SymbolicModel import SymbolicModel
 from NeuralModel import Model, train, generate_sentence, test
+from analysis import *
 
 import time
 import pickle
@@ -36,7 +37,7 @@ def export_neural_results(probs, labels, inputs, lens):
 
 def export_neural_results2(probs, labels, inputs, lens):
     sents = list(map(lambda x: " ".join(x), inputs))
-    with open("results/neur-res-test.txt", "w") as filehandle:
+    with open("results/neur-res-test2.txt", "w") as filehandle:
         for i in range(len(labels)):
             filehandle.write("%s\t%s\t%s\t%s\n" % (sents[i], probs[i], labels[i], lens[i]))
 
@@ -142,6 +143,8 @@ def neuro():
     print(test(model, test_x, test_y))
 
     train_inputs, train_labels, test_inputs, test_labels = load_cola()
+    # print(test_inputs[0])
+    test_inputs, test_labels = neur_test_2()
 
     new_inputs, new_labels = filter_window_size(train_inputs, train_labels, w_size)
     train_inputs_id = make_words_into_ids(new_inputs, w2id)
@@ -209,7 +212,7 @@ def neuro():
         pps.append(test(model, cola_test_x[i], cola_test_y[i]))
 
     export_neural_results2(pps, new_test_labels[:200], new_test_inputs[:200], cola_lens)
-    visualize_results(pps, new_test_labels[:200], "neur2-test")
+    visualize_results(pps, new_test_labels[:200], "neur2-test2")
 
 
     # pickle.dump(model, open("pickled-vars/neural_model.p", "wb"))
@@ -232,7 +235,18 @@ def testing():
     grammar = pickle.load(open("pickled-vars/treebank-grammar.p", "rb"))
     get_embeddings("data/ptb.csv")
 
+def neur_test_2():
+    data = load_symb_results("data/neur-round2.txt")
+    # print(data[0])
+    good_data = []
+    good_labels = []
+    for d in data:
+        good_data.append(d[0].split(" "))
+        good_labels.append(d[1])
+    return good_data, good_labels
+
 if __name__ == "__main__":
     neuro()
     # testing()
     # symbo()
+    # neur_test_2()
