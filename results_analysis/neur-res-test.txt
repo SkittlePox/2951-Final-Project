@@ -1,0 +1,200 @@
+The sailors rode the breeze clear of the rocks .	291.98587	1	10
+The weights made the rope stretch over the pulley .	76.61072	1	10
+The mechanical doll wriggled itself loose .	209.95882	1	7
+If you had eaten more, you would want less .	191.48517	1	10
+As you eat the most, you want the least .	290.16196	0	10
+The more you would want, the less you would eat .	272.42535	0	11
+I demand that the more John eat, the more he pays .	81.69503	0	12
+Mary listens to the Grateful Dead, she gets depressed .	71.23396	1	10
+The angrier Mary got, the more she looked at pictures .	72.4322	1	11
+The higher the stakes, the lower his expectations are .	767.4568	1	10
+The more Fred is obnoxious, the less attention you should pay to him .	246.34181	1	14
+John was lots more obnoxious than Fred .	314.03534	1	8
+The more people you give beer to, the more people get sick .	485.49026	1	13
+The more does Bill smoke, the more Susan hates him .	32.87523	0	11
+The more pictures of him that appear in the news, the more embarrassed John becomes .	332.86783	1	16
+Every senator seems to become more corrupt, as he talks to more lobbyists .	1077.8142	1	14
+Who does John visit Sally because he likes ?	192.44464	0	9
+Marianne did not leave .	183.44135	1	5
+He could not have been working .	161.0128	1	7
+He can not have been working .	176.95462	1	7
+You will believe Bob .	57.314762	1	5
+John has not kissed Mary .	27.429049	1	6
+I said that never in my life had I seen a place like Bangor .	345.62473	1	15
+Mickey looked up it .	187.01588	0	5
+There tended to be a lot of discussion .	62.952335	1	9
+John tried to be a good boy .	173.09961	1	8
+We want John to win .	211.55612	1	6
+The box contained the ball from the tree .	838.12305	0	9
+The tube was escaped by gas .	3208.2673	0	7
+Water bubbled up out of the kettle .	67.714676	1	8
+The tub leaked water .	16.5525	1	5
+What the water did to the bottle was fill it .	455.3321	0	11
+What the water did to the whole bottle was fill it .	239.02821	0	12
+The tank leaked the fluid free .	143.36469	1	7
+John lay the ball in the box .	906.07715	1	8
+John owns the book .	251.54016	1	5
+We persuaded Mary to leave and Sue to stay .	150.77002	1	10
+Most people probably consider, even though the courts didn't actually find, Klaus guilty of murder .	261.31503	1	16
+Mary beautifully plays the violin .	1545.7177	0	6
+Clearly, John probably will immediately learn French perfectly .	479.2645	1	9
+Sue gave to Bill a book .	125.054085	0	7
+The men will all leave .	1269.7992	1	6
+They represented seriously to the dean Mary as a genuine linguist .	224.38513	0	12
+It is nice to go abroad .	806.91376	1	7
+Mary intended John to go abroad .	135.62465	0	7
+I remembered having kissed Mary .	143.886	1	6
+I can't believe Fred won't, either .	18.495169	1	7
+John wants to read Fred's story, and I also want to .	100.24645	1	12
+We wanted to invite someone, but we couldn't decide who to .	125.83703	0	12
+Mary will read Fred's story, and Joe will read Holly's .	149.23209	1	11
+Mary claimed that eating cabbage, Holly shouldn't .	1127.4915	1	8
+Mary came to be introduced by the bartender and I also came to be .	90.372765	0	15
+If I can, I will work on it .	33.995842	1	9
+Joe's neuroses bother his patrons, and Sally does too .	195.51157	1	10
+I know which book José didn't read for class, and which book Lilly did it for him .	349.0726	0	18
+This is the book which Bob reviewed, and this is the one which Fred won't do it .	72.61085	0	18
+I know which book Mag read, and which book Bob said that you hadn't .	373.53003	1	15
+I know which book Mag read, and which book Bob read my report that you hadn't .	358.90924	0	17
+I'm sure I would like him to eat fruit more than I would cookies .	378.1862	1	15
+Rusty talked about himself only after Mary did talk about him .	824.53564	1	12
+Fred talked about everything before Rusty did talk about something .	796.8602	1	11
+John often meets Mary .	266.5979	1	5
+The problem perceives easily .	234.16893	0	5
+A hundred men surrounded the fort .	5118.3013	1	7
+Which report that John was incompetent did he submit ?	1083.9469	0	10
+Mary has always preferred lemons to limes .	447.83783	1	8
+He let the cats which were whining out .	72.13891	1	9
+What did Bill buy ?	110.15527	1	5
+Mary saw the boy walking toward the railroad station .	1105.8319	1	10
+A proof that the claim had been made was given that John had lied .	253.8551	0	15
+He attributed to a short circuit which was caused by an overloaded transducer the fire which destroyed most of my factory .	538.71027	1	22
+The mayor regarded as being absurd the proposal to build a sidewalk from Dartmouth to Smith .	617.08856	0	17
+I want that Bill left to remain a secret .	482.91818	0	10
+I know a man who Tom drives as drives .	783.84796	0	10
+Drowning cats, which is against the law, are hard to rescue .	85.86256	0	12
+Muriel said nothing else than that she had been insulted .	583.7944	1	11
+Himself is understood by Rutherford .	143.92401	0	6
+I feel that Arch will show up .	209.87103	1	8
+The proof this set is recursive is difficult .	198.3611	0	9
+The madrigals which Henry plays the lute and sings sound lousy .	41.826218	0	12
+Tom picked these grapes, and I washed some turnips, and Suzie will prepare these grapes .	74.63497	1	16
+Where did you go and who ate what ?	131.23221	1	9
+Which boy's did we elect guardian's employer president ?	140.63084	0	9
+How sane is Peter ?	7.426141	1	5
+I live at the place where Route 150 crosses the River and my dad lives at the place where Route 150 crosses the Hudson River too .	38.143604	1	27
+I live at the place where Route 150 crosses the Hudson River and my dad lives at it too .	54.331547	0	20
+Who is she trying to make up to now ?	394.4573	1	10
+Wind was gotten of a plot to negotiate an honorable end to the war in Vietnam .	214.96768	0	17
+Mike talked about politics yesterday to my friends .	1579.2195	1	9
+It was expected by the reporters that the principal would fire some teacher .	569.753	1	14
+Which hat did Mike quip that she never wore ?	323.4861	0	10
+Which girl did Mike quip never wore this hat ?	550.37524	0	10
+We donated wire for the convicts to build cages with .	365.41455	1	11
+I won't have some money .	230.82436	0	6
+Do you believe the claim that somebody was looking for something ?	1286.3151	1	12
+I won't ask you to believe that he tried to force me to give her any money .	483.81363	1	18
+That Sam sometimes didn't sleep must have pleased somebody .	832.8758	1	10
+I talked to Winston about himself .	179.1446	1	7
+That the fuzz wanted him worried John, but that the fuzz wanted her didn't worry Mary .	129.63023	1	17
+I'll work on it if Sam will be working on it .	222.3049	1	12
+I'll work on it if I can .	347.15305	1	8
+Here's a knife with which for you to cut up the onions .	74.585625	0	13
+Fluffy is sick, which not everybody knows .	108.0762	1	8
+Maxwell is quite a doctor .	677.37994	1	6
+The younger woman might have been tall and, and the older one definitely was, blond .	697.1771	0	16
+Sally is tall, and may be blond, and Sheila is short, and definitely is, blond .	51.454536	1	16
+I have to try to finish grading some papers .	1335.6599	1	10
+The socks are ready for for you to put on to be planned .	269.22723	0	14
+It is easy to play sonatas on this violin .	434.3272	1	10
+This violin is difficult to play sonatas on .	406.3677	1	9
+My mother is easy to please my father and .	850.3872	0	10
+Poor Bill, it had started to rain and he had no umbrella .	96.31771	1	13
+That the cops spoke to the janitor about it yesterday is terrible, that robbery .	92.76526	0	15
+Every student, and he wears socks, is a swinger .	52.941765	0	10
+That girl was given my binoculars by him .	237.20653	1	9
+Bill didn't allege that Roger had eaten anything .	20.652716	1	9
+Nobody who hates to eat anything should work in a delicatessen .	220.41867	1	12
+Everybody around here who ever buys anything on credit talks in his sleep .	6149.44	1	14
+I can't remember the name of somebody who had misgivings .	491.19736	0	11
+No writer, and no playwright, meets in Vienna .	57.976463	0	9
+No writer, nor any playwright, meets in Vienna .	128.66327	0	9
+That you will marry any student is not certain .	304.32965	1	10
+Felicia kicked the ball off the bench .	6792.7183	1	8
+I sent the package halfway around the world .	279.74533	1	9
+Sam gave the ball out of the basket .	252.39706	0	9
+Sam offered the ball out of the basket .	365.81046	0	9
+Park Square has a festive air .	23.742113	1	7
+The worker will have a job .	755.82904	1	7
+No one can forgive that comment to you .	148.97144	0	9
+We launched the rocket to the moon, but it blew up before it got there .	233.26933	1	16
+Sarah promised Catherine her old car, but then gave it to her son instead .	310.41223	1	15
+I lent the book partway to Tony .	646.897	0	8
+The farmer loaded the cart with apples .	575.6667	1	8
+The farmer dumped the cart with apples .	1315.1287	0	8
+Martha carved the baby a toy out of wood .	590.8013	1	10
+The bread cuts easily .	1490.275	1	5
+Janet broke Bill on the finger .	63.9665	0	7
+Janet broke the cup .	325.216	1	5
+The visitor rang the bell .	70.79322	1	6
+That movie always shocks people .	14687.657	1	6
+That movie always shocks .	2989.2222	1	5
+Sharon came the room .	117.06001	0	5
+Bill sent a package to Tom .	2608.4397	1	7
+That acorn will grow into an oak tree .	419.8686	1	9
+He turned into a frog .	86.852844	1	6
+I mixed the sugar into the butter .	2803.6711	1	8
+Brian threw the fence with the stick .	268.5441	0	8
+Mira condemned Terry for the accident .	9.388585	1	7
+We investigated the area for bombs .	1331.6027	1	7
+I sensed his eagerness .	193.47867	1	5
+They praised the dedication in the volunteers .	198.20793	0	8
+The earth was believed to be round .	550.8423	1	8
+Sarah smiled a charming smile .	8.05656	1	6
+Sandra beamed a cheerful welcome .	124.62424	1	6
+You've really lived it up .	1199.0398	1	6
+Paperback books lift onto the table easily .	20676.543	0	8
+The books lifted onto the table .	17972.541	0	7
+Jessica loaded boxes under the wagon .	2558.2502	1	7
+Jessica loaded boxes on the wagon .	1428.3531	1	7
+Jessica crammed boxes at the truck .	111.05672	0	7
+Lora buttered at the toast .	9.316381	0	6
+Carla shoveled the walk .	75.953224	1	5
+Nora sent the book .	257.43478	1	5
+Nora sent Peter the book .	214.15768	1	6
+Carla slid the book .	353.17758	1	5
+Carla slid at the book .	568.461	0	6
+Amanda carried the package to Pamela .	1551.0417	1	7
+Packages drive easily to New York .	444.27347	0	7
+We offered a job to her .	392.12344	1	7
+Brown presented a plaque to Jones .	166.64093	1	7
+Carmen bought Mary a dress .	396.93945	1	6
+Carmen obtained the spare part at the hardware store .	1763.0258	1	10
+Michelle kept the desk with the papers .	725.9326	0	8
+Frances hid the presents in the drawer .	131.13683	1	8
+The needle poked the cloth .	6.4236536	1	6
+Carrie touched that cat .	6675.3325	1	5
+Herman whipped the sugar and the cream .	83.76595	0	8
+Linda taped the picture to the wall .	1268.0366	1	8
+Linda taped the picture onto the wall .	16277.458	1	8
+The child and her mother clung together .	604.7111	1	8
+This flyer and that flyer differ .	14.409424	1	7
+This flyer and that flyer differ apart .	14.409424	0	8
+The jeweller scribbled the contract with his name .	47.048103	0	9
+The gardener grew that acorn into an oak tree .	361.97128	1	10
+I shaped a loaf .	8.05656	0	5
+Susan whispered the news .	65.44459	1	5
+Susan whispered at Rachel .	9.656438	1	5
+Ellen said that melons were selling well .	76.045784	1	8
+Ellen said about the present conditions .	438.12375	0	7
+Ellen warned Helen against skating on thin ice .	442.79977	1	9
+Cynthia nibbled on the carrot  .	10.118686	1	7
+Paul laughed at Mary .	9.656438	1	5
+Linda winked her lip .	11.025838	0	5
+My heart is pounding me .	379.49298	0	6
+Sharon fainted from hunger .	9.996253	1	5
+The witch poisoned the children .	25.038673	1	6
+A grandfather clock ticked in the hallway .	6.5814543	1	8
+I squeaked the door .	29.743412	0	5
+Over the fire there bubbled a fragrant stew .	33.213253	1	9
+Soaring temperatures are predicted for this weekend .	5793.6978	1	8
