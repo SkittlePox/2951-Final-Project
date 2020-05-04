@@ -1,4 +1,4 @@
 neural threshold on CoLA train: 281, overall: 0.517, grammatical: 0.516, ungrammatical: 0.517
 neural accuracy on CoLA test with threshold=281: overall: 0.472, grammatical: 0.519, ungrammatical: 0.382
 symbolic threshold on CoLA train: -0.635, overall: 0.507, grammatical: 0.503, ungrammatical: 0.515
-symbolic accuracy on CoLA test with threshold=-0.635: overall: , grammatical: , ungrammatical:
+symbolic accuracy on CoLA test with threshold=-0.635: overall: 0.467, grammatical:  0.539, ungrammatical: 0.342
