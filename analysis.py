@@ -117,14 +117,15 @@ def main():
     neur_format = ["sentence", "perplexity", "CoLA Label", "Sentence Length"]
     symb_format = ["sentence", "CoLA Label", "prob prediction", "Number of Productions"]
     neur_test = load_neural_results("results_analysis/neur-res-test.txt")
+    neur_test2 = load_neural_results("results_analysis/neur-res-test2.txt")
     neur_train = load_neural_results("results_analysis/neur-res-train.txt")
     symb_train = load_symb_results("results_analysis/symb-sum-norm-train.txt")
     symb_test = load_symb_results("results_analysis/symb-sum-norm-test.txt")
 
-    # print(neur_accuracy(neur_train, 281))
+    print(neur_accuracy(neur_test2, 281))
     # neur_threshold_graph(neur_train)
     # print(symb_train[0])
-    print(symb_accuracy(symb_test, -0.635))
+    # print(symb_accuracy(symb_test, -0.635))
     # symb_threshold_graph(symb_train)
 
 if __name__ == '__main__':
