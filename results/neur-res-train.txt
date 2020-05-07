@@ -1,1000 +1,114 @@
-Our friends won't buy this analysis, let alone the next one we propose .	853.9899	1	14
-One more pseudo generalization and I'm giving up .	59.427006	1	9
-One more pseudo generalization or I'm giving up .	71.4855	1	9
-The more we study verbs, the crazier they get .	210.8983	1	10
-Day by day the facts are getting murkier .	157.33064	1	9
-I'll fix you a drink .	5828.1226	1	6
-Fred watered the plants flat .	479.72226	1	6
-Bill coughed his way out of the restaurant .	67.374535	1	9
-We're dancing the night away .	231.14455	1	6
-Herman hammered the metal flat .	556.8788	1	6
-The critics laughed the play off the stage .	297.13757	1	9
-The pond froze solid .	47.29236	1	5
-Bill rolled out of the room .	434.11227	1	7
-The gardener watered the flowers flat .	47.218014	1	7
-The gardener watered the flowers .	47.218014	1	6
-Bill broke the bathtub into pieces .	145.79807	1	7
-Bill broke the bathtub .	44.148315	1	5
-They drank the pub dry .	57.898777	1	6
-They drank the pub .	6.3665137	0	5
-The professor talked us into a stupor .	4918.4404	1	8
-The professor talked us .	1353.28	0	5
-We yelled ourselves hoarse .	33.69773	1	5
-We yelled Harry hoarse .	3.3799026	0	5
-Harry coughed himself into a fit .	103.234436	1	7
-Harry coughed us into a fit .	98.720566	0	7
-Bill followed the road into the forest .	760.5452	1	8
-We drove Highway 5 from SD to SF .	36.70232	1	9
-Fred tracked the leak to its source .	357.2402	1	8
-John danced waltzes across the room .	19.375517	1	7
-Bill urinated out the window .	216.52036	1	6
-Bill coughed out the window .	216.52036	1	6
-Bill bled on the floor .	64.30075	1	6
-The toilet leaked through the floor into the kitchen below .	580.19025	1	11
-Bill ate off the floor .	233.65363	1	6
-Bill drank from the hose .	12.4724045	1	6
-This metal hammers flat easily .	3808.753	1	6
-They made him president .	402.60303	1	5
-They made him angry .	909.0537	1	5
-They caused him to become angry by making him .	1415.6707	0	10
-They caused him to become president by making him .	816.94684	0	10
-They made him to exhaustion .	108.2352	0	6
-They made him into a monster .	241.18442	1	7
-The trolley rumbled through the tunnel .	16.882671	1	7
-The wagon rumbled down the road .	24.006456	1	7
-The bullets whistled past the house .	515.8799	1	7
-The knee replacement candidate groaned up the stairs .	116.04862	1	9
-The car honked down the road .	208.56892	0	7
-The dog barked out of the room .	215.91783	0	8
-The dog barked its way out of the room .	284.3045	1	10
-Bill whistled his way past the house .	358.47565	1	8
-The witch vanished into the forest .	11.575256	1	7
-Bill disappeared down the road .	1572.8062	1	6
-The witch went into the forest by vanishing .	112.80905	0	9
-The witch went into the forest and thereby vanished .	228.22113	1	10
-The building is tall and wide .	729.5666	1	7
-The building is tall and tall .	729.5666	0	7
-This building is taller and wider than that one .	358.72665	1	10
-This building got taller and wider than that one .	700.7173	1	10
-This building got taller and taller .	311.82828	1	7
-This building is taller and taller .	81.72539	0	7
-This building got than that one .	2033.0858	0	7
-This building is than that one .	483.71234	0	7
-Bill floated into the cave .	13.010591	1	6
-Bill floated into the cave for hours .	13.010591	0	8
-Bill pushed Harry off the sofa for hours .	112.453835	0	9
-Bill floated down the river for hours .	115.59123	1	8
-Bill floated down the river .	115.59123	1	6
-Bill pushed Harry along the trail for hours .	302.34964	1	9
-Bill pushed Harry along the trail .	183.53024	1	7
-The road zigzagged down the hill .	152.44974	1	7
-The rope stretched over the pulley .	306.46817	1	7
-The weights stretched the rope over the pulley .	44.775196	1	9
-The weights kept the rope stretched over the pulley .	102.35094	1	10
-Sam cut himself free .	1105.8541	1	5
-Sam got free by cutting his finger .	9074.894	1	8
-Bill cried himself to sleep .	264.20078	1	6
-Bill cried Sue to sleep .	40.160732	0	6
-Bill squeezed himself through the hole .	2676.883	1	7
-Bill sang himself to sleep .	3523.0278	1	6
-Bill squeezed the puppet through the hole .	610.8201	1	8
-Bill sang Sue to sleep .	505.69177	1	6
-The elevator rumbled itself to the ground .	33.203682	0	8
-If the telephone rang, it could ring itself silly .	2059.2485	1	10
-Ted cried to sleep .	37.832497	0	5
-The tiger bled to death .	310.64902	1	6
-He coughed awake and we were all overjoyed, especially Sierra .	78.59944	1	11
-John coughed awake, rubbing his nose and cursing under his breath .	45.895195	1	12
-John coughed himself awake on the bank of the lake where he and Bill had their play .	123.348114	1	18
-Ron yawned himself awake .	21.187714	1	5
-She coughed herself awake as the leaf landed on her nose .	90.59259	1	12
-The worm wriggled onto the carpet .	1874.8608	1	7
-The chocolate melted onto the carpet .	87.96905	1	7
-The ball wriggled itself loose .	2742.34	0	6
-Bill wriggled himself loose .	227.58572	1	5
-Aliza wriggled her tooth loose .	124.46234	1	6
-The off center spinning flywheel shook itself loose .	665.4944	1	9
-The more you eat, the less you want .	205.94843	1	9
-If you eat more, you want correspondingly less .	156.53683	1	9
-When you eat more, you want correspondingly less .	156.53683	1	9
-As you eat more, you want correspondingly less .	156.53683	1	9
-The most you want, the least you eat .	280.58575	0	9
-The angrier Sue gets, the more Fred admires her .	14.178216	1	10
-The more that you eat, the less that you want .	141.96773	1	11
-The angrier that Sue gets, the more that Fred admires her .	18.944633	1	12
-I think that the more you eat, the less you want .	192.92407	1	12
-I'm not shocked by the idea that the more you eat, the less you want .	226.33293	1	16
-It is obvious that the more you eat, the less you want .	186.88377	1	13
-It is not entirely clear if the more you eat, the less you want .	331.939	1	15
-I want to explain exactly why the more you eat, the less you want .	534.4158	1	15
-I demand that the more John eats, the more he pays .	85.7567	1	12
-I demand that the more John eat, the more he pay .	85.7567	0	12
-I demand that John pay more, the more he eats .	274.7053	1	11
-I demand that John pays more, the more he eat .	338.85007	0	11
-You get angrier, the more we eat, don't you .	83.35524	1	10
-You get angrier, the more we eat, don't we .	83.516884	0	10
-The harder it has rained, how much faster a flow that appears in the river ?	757.52094	0	16
-The harder it has rained, how much faster a flow appears in the river ?	742.72144	1	15
-The harder it rains, how much faster that do you run ?	798.05273	0	12
-The harder it rains, how much faster do you run ?	1142.6117	1	11
-The harder it rains, how much faster a flow do you see in the river ?	904.32086	1	16
-The harder it rains, how much faster a flow that do you see in the river ?	382.5482	0	17
-When it rains harder, how much faster a flow appears in the river ?	285.93106	1	14
-As it rains harder, how much faster a flow appears in the river ?	285.93106	1	14
-As it rains harder, how much faster a flow that appears in the river ?	206.20764	0	15
-When it rains harder, how much faster a flow that appears in the river ?	206.20764	0	15
-How much harder has it rained, the faster a flow you see in the river ?	759.38525	1	16
-How much harder has it rained, when you see a faster flow in the river ?	671.6719	1	16
-The more John eats, the tighter keep your mouth shut about it .	471.18018	0	13
-The more everyone eat, the more John keeps his big mouth shut about it, OK ?	982.13525	0	16
-When John eats more, keep your mouth shut tighter, OK ?	185.03003	1	11
-As John eats more, keep your mouth shut tighter, OK ?	185.03003	1	11
-Keep your mouth shut tighter, the more John eats, OK ?	164.95352	1	11
-Everyone keep your mouth shut tighter, the more John eats, OK ?	405.49435	1	12
-I can well imagine the more him eating, the fatter him getting .	185.87587	0	13
-Bill can well imagine getting fat .	2898.8704	1	7
-Bill can well imagine the more he eats, the fatter getting .	284.3304	0	12
-Fred can well imagine Joe getting fatter, the more he eats .	193.70732	1	12
-It is important the more you eat, the more careful to be .	151.42047	0	13
-It is important for the more you eat, the more careful to be .	186.27301	0	14
-It is important the more you to eat, the more careful to be .	245.0497	0	14
-It is important the more you eat, the more careful you to be .	263.14413	0	14
-It is important the more you eat, the more careful for you to be .	250.47028	0	15
-It is important for the more you to eat, the more careful to be .	217.72267	0	15
-It is important for the more you to eat, the more careful for you to be .	157.74786	0	17
-It is important the more you to eat, the more careful for you to be .	293.36105	0	16
-It is important for the more you eat, the more careful you to be .	276.7855	0	15
-It is important for you to be more careful, the more you eat .	244.95659	1	14
-It is important to be more careful, the more you eat .	96.20732	1	12
-I can well imagine quickly Mary answering the question .	328.14108	0	10
-I can well imagine with a hatchet Mary destroying the Jeep .	272.2669	0	12
-I can well imagine if he eats more, him getting fat .	216.29994	0	12
-It is not entirely obvious if, Mary listens to the Grateful Dead, she gets depressed .	44.055626	0	16
-It is not entirely obvious whether, Mary listens to the Grateful Dead, she gets depressed .	44.055626	0	16
-Mary listens to the Grateful Dead and she gets depressed .	35.837345	1	11
-If Mary listens to the Grateful Dead, she gets depressed .	22.651604	1	11
-When Mary listens to the Grateful Dead, she gets depressed .	22.651604	1	11
-Mary gets depressed if she listens to the Grateful Dead .	191.72673	1	11
-Mary gets depressed when she listens to the Grateful Dead .	195.54698	1	11
-The more she looked at pictures, the angrier Mary got .	80.90701	1	11
-The more pictures Mary looked at, she got angrier and angrier .	190.67134	0	12
-Mary gets depressed and she listens to the Grateful Dead .	169.50285	1	11
-The higher the stakes are, the lower his expectations are .	1158.5549	1	11
-The higher the stakes, the lower his expectations .	317.78906	1	9
-His expectations are lower, the higher the stakes .	469.30762	1	9
-His expectations are lower, the higher the stakes are .	823.677	1	10
-His expectations lower, the higher the stakes .	423.6042	0	8
-His expectations lower, the higher the stakes are .	437.1198	0	9
-The more obnoxious Fred is, the less attention you should pay to him .	227.4987	1	14
-The more obnoxious Fred, the less attention you should pay to him .	222.19533	0	13
-The more Fred is obnoxious, the less you should pay attention to him .	310.07346	1	14
-The more obnoxious Fred, the less you should pay attention to him .	226.51195	0	13
-His expectations are always lower than mine .	3760.5798	1	8
-John was lots more obnoxious than Fred was .	79.43196	1	9
-You should always lock your door, no matter how fancy the hotel might be .	1651.9471	1	15
-You should always lock your door, no matter how fancy the hotel .	989.4673	1	13
-I don't plan to lock the door, no matter how fancy this hotel is .	742.9538	1	15
-I don't plan to lock the door, no matter how fancy this hotel .	742.9538	0	14
-I'm going out, whatever the weather .	530.2355	1	7
-I'm going out, wherever that hurricane might be .	928.3301	1	9
-I'm going out, wherever that hurricane .	795.62024	0	7
-The more examples Mary says that Bill has helped Fred to discover the less I believe her .	263.4981	1	18
-The more food Mary knows a man that eats the poorer she gets .	380.36874	0	14
-The fatter he goes to a doctor when he gets the more he eats .	246.53348	0	15
-The fatter that that he gets bothers him, the more he eats .	40.309795	0	13
-The more books I ask to whom he will give, the more he reads .	355.52844	0	15
-The more people I ask what he will give to the more he reads .	410.52505	0	15
-The more carefully he words the letter the safer he'll be .	1856.677	1	12
-The more carefully he knows a man that worded the letter the safer he'll be .	512.6195	0	16
-The more geniuses John meets, the angrier he gets .	43.052433	1	10
-The more John meets geniuses, the angrier he gets .	209.36308	0	10
-The more people you say will buy tickets, the happier I'll be .	134.117	1	13
-The more people you say that will buy tickets, the happier I'll be .	173.78456	0	14
-The more people you say that right after the show opens will buy tickets, the happier I'll be .	335.81064	1	19
-The more I talk to Joe, the less about linguistics I am inclined to think Sally has taught him to appreciate .	283.44983	1	22
-The more he eats, the poorer he knows a woman that gets .	378.99838	0	13
-The more he eats, the fatter he goes to a doctor when he gets .	180.90013	0	15
-The more he eats, the fatter that that he gets really bothers me .	152.19734	0	14
-The more he reads, the more books I wonder to whom he will give .	270.0411	0	15
-The more he reads, the more people I wonder what he will give to .	292.74622	0	15
-The sooner you call, the more carefully I know a man that will word the letter .	373.7114	0	17
-The richer John gets, the more geniuses John meets .	158.67624	1	10
-The richer he gets, the more John meets geniuses .	251.28673	0	10
-The more articles he reads, the fewer people he thinks will go into linguistics .	908.269	1	15
-The more articles he reads, the fewer people he thinks that will go into linguistics .	853.28046	0	16
-The more articles he reads, the fewer people he thinks that under the current circumstances will go into linguistics .	920.46344	1	20
-The more articles he reads, the fewer people he thinks under the current circumstances will go into linguistics .	1046.4935	1	19
-The more people that arrive, the louder that it gets .	54.57428	1	11
-The more people that arrive, the louder it gets .	128.07271	1	10
-The more people you give beer to, the more people that get sick .	660.67676	1	14
-The more people that you give beer to, the more people that get sick .	391.41357	1	15
-The more people arrive, the louder that it gets .	105.87464	1	10
-The more people arrive, the louder it gets .	88.33272	1	9
-The more people that you give beer to, the more people get sick .	571.66583	1	14
-The more pictures of John that he buys the more arrogant he becomes .	630.0318	0	14
-The more pictures of himself that John buys the more arrogant he becomes .	984.59326	1	14
-The man that arrived on the train was my brother .	491.9451	1	11
-The man arrived on the train was my brother .	803.82117	0	10
-The more people everyone who likes pays attention to, the happier we all are .	1041.5983	0	15
-The later it gets, the more people everyone who likes pays attention to .	1067.7511	0	14
-Whenever Bill smokes, Susan hates him all the more .	28.037865	1	10
-Whenever Bill smokes, Susan hates him much more .	29.428	1	9
-Whenever Bill smokes, Susan hates him far more .	29.21524	1	9
-Whenever Bill smokes, Susan hates him a lot more .	51.653324	1	10
-Once Janet left, Fred became all the crazier .	18.280012	1	9
-Once Janet left, Fred became much crazier .	15.929618	1	8
-Once Janet left, Fred became far crazier .	15.929618	1	8
-Fred became all the crazier, the more often Janet left .	87.501495	1	11
-When Bill smokes, all the more does Susan hate him .	123.18688	1	11
-When Bill smokes, much more does Susan hate him .	273.43304	0	10
-When Bill smokes, all the more Susan hates him .	26.67915	0	10
-So much did you eat that everyone gasped .	308.98495	1	9
-So fast did you run that everyone gasped .	363.05093	1	9
-So intelligent a dog did you buy that everyone gasped .	617.04504	1	11
-I know how much you ate .	1428.9888	1	7
-I know how fast you ran .	2531.096	1	7
-I know how intelligent a dog you bought .	431.68436	1	9
-He ate so much that he got sick .	222.32504	1	9
-So much did he eat that he got sick .	1243.2041	1	10
-The more you eat, the more you want .	166.72502	1	9
-You eat the more, the more you want .	216.24797	0	9
-The more you eat, you want the more .	130.98877	0	9
-I wonder you ate how much .	571.54047	0	7
-I wonder to how many people Bill talks .	649.9679	1	9
-The longer he has to wait, the angrier John gets .	95.70849	1	11
-If he has to wait, John gets angry .	206.08252	1	9
-He gets angry, the longer John has to wait .	230.53133	0	10
-He gets angry if John has to wait .	534.85	0	9
-The more that pictures of him appear in the news, the more embarrassed John becomes .	373.579	1	16
-The more pictures of himself that appear in the news, the more embarrassed John becomes .	314.6814	1	16
-The more that pictures of himself appear in the news, the more embarrassed John becomes .	379.24496	1	16
-The more pictures of him appear in the news, the more likely John is to get arrested .	231.80669	1	18
-The more pictures of himself appear in the news, the more likely John is to get arrested .	232.25046	0	18
-The more that pictures of him appear in the news, the more likely John is to get arrested .	185.05014	1	19
-The more that pictures of himself appear in the news, the more likely John is to get arrested .	187.15112	0	19
-The more that John gets upset by them, the more that stories about him seem to show up in the news .	541.7319	1	22
-The more that John gets upset by them, the more that stories about himself seem to show up in the news .	564.31	0	22
-John is more embarrassed, the more pictures of him appear in the news .	213.79323	1	14
-John is more embarrassed, the more pictures of him that appear in the news .	126.27823	1	15
-John is more embarrassed, the more pictures of himself appear in the news .	212.30473	1	14
-John is more embarrassed, the more pictures of himself that appear in the news .	142.83232	1	15
-Stories about him seem to show up more on the evening news, the more that John gets upset by them .	301.71423	1	21
-Stories about himself seem to show up more on the evening news, the more that John gets upset by them .	314.98285	0	21
-If you give him enough opportunity, every senator will succumb to corruption .	410.56833	1	13
-You give him enough opportunity and every senator will succumb to corruption .	738.98566	1	13
-We gave him enough opportunity and, sure enough, every senator succumbed to corruption .	768.16925	0	14
-If you give any senator enough opportunity, he will succumb to corruption .	291.83066	1	13
-You give any senator enough opportunity and he will succumb to corruption .	590.3563	1	13
-You give every senator enough opportunity and he will succumb to corruption .	658.66046	0	13
-We gave any senator enough opportunity and, sure enough, he succumbed to corruption .	564.5371	0	14
-We gave every senator enough opportunity and, sure enough, he succumbed to corruption .	621.7793	0	14
-The more lobbyists he talks to, the more corrupt every senator seems to become .	2113.2725	1	15
-The more lobbyists wine and dine him, the more every senator is susceptible to corruption .	724.9011	1	16
-The more time that every senator spends with lobbyists, the more likely he succumbs to corruption .	500.3659	0	17
-Every senator becomes more corrupt, the more lobbyists he talks to .	1417.5256	1	12
-Any senator becomes more corrupt, the more lobbyists he talks to .	1417.5256	1	12
-He seems to become more corrupt, the more lobbyists any senator talks to .	1013.37823	0	14
-He seems to become more corrupt, the more lobbyists every senator talks to .	1152.4681	0	14
-Every senator seems to become more corrupt, if he talks to more lobbyists .	1072.6368	1	14
-Any senator seems to become more corrupt, if he talks to more lobbyists .	1072.6368	1	14
-Any senator seems to become more corrupt, as he talks to more lobbyists .	1015.58606	1	14
-He seems to become more corrupt, if any senator talks to more lobbyists .	1254.3038	0	14
-He seems to become more corrupt, if every senator talks to more lobbyists .	1329.2383	0	14
-He seems to become more corrupt, as every senator talks to more lobbyists .	1176.8809	0	14
-He seems to become more corrupt, as any senator talks to more lobbyists .	1076.2529	0	14
-The sooner you solve this problem, the more easily you'll satisfy the folks up at corporate headquarters .	1669.0638	1	18
-This is the sort of problem which the sooner you solve the more easily you'll satisfy the folks up at corporate headquarters .	859.7674	1	23
-The folks up at corporate headquarters are the sort of people who the sooner you solve this problem, the more easily you'll satisfy .	898.95483	1	24
-This problem, the sooner you solve the more easily you'll satisfy the folks up at corporate headquarters .	1492.5287	1	18
-Who did you give pictures of to friends of ?	377.36694	1	10
-It is this problem that the sooner you solve the more easily you'll satisfy the folks up at corporate headquarters .	879.78906	1	21
-It is the folks up at corporate headquarters who the sooner you solve this problem, the more easily you'll satisfy .	727.8549	0	21
-Which problem the sooner you solve, will the more easily you satisfy the folks up at corporate headquarters ?	1749.5226	0	19
-Which problem does the sooner that you solve, the more easily you'll satisfy the folks up at corporate headquarters ?	586.3054	0	20
-Which problem the sooner that you solve, will the more easily you satisfy the folks up at corporate headquarters ?	763.62787	0	20
-The harder it rains, the faster who runs ?	1094.9335	0	9
-The louder who talks, the angrier you get ?	37.769943	0	9
-The harder that it rains, how much faster a flow do you see in the river ?	370.37128	1	17
-They failed to tell me which problem the sooner I solve, the quicker the folks up at corporate headquarters .	421.25754	1	20
-I finally worked up enough courage to ask which people up at corporate headquarters the sooner I solve this problem, the quicker I'll get free of .	583.877	0	27
-Which folks up at corporate headquarters do you think that the sooner you solve this problem, the quicker you'll be able to tell t to buzz off ?	510.90158	0	28
-This is a problem that you'll be able to tell the folks up at corporate headquarters to buzz off if you solve .	437.6168	0	23
-This is a problem that you'll be able to tell the folks up at corporate headquarters to buzz off if you solve it .	437.6168	1	24
-This is a problem that you solve it and you'll be able to tell the folks up at corporate headquarters to buzz off .	514.5417	0	24
-Those are the folks that you just solve this problem and you'll be able to put them on ice .	477.98508	0	20
-They failed to tell me which problem I'll beat the competition more easily, the sooner I solve .	1387.6372	0	18
-This is the problem that you'll beat the competition more easily, the sooner you solve .	430.30536	0	16
-John saw the man in the room .	217.37744	1	8
-Which room did John see the man in ?	155.12888	1	9
-Who did John think that Bill claimed that Mary suspected that everybody liked ?	562.111	1	14
-John could not visit Sally .	190.13051	1	6
-What John could do is not visit Sally .	81.09113	1	9
-John couldn't visit Sally .	30.160885	1	5
-Why did John leave ?	107.907455	1	5
-I hit the ball .	336.5968	1	5
-You hit the ball .	336.5968	1	5
-He hit the ball .	336.5968	0	5
-She hit the ball .	336.5968	0	5
-They hit the ball .	336.5968	1	5
-Am not I going ?	89.57482	0	5
-I am not going .	310.89352	1	5
-Louise is unhappy, isn't she ?	19.693985	1	6
-Louise likes not being happy, doesn't she ?	678.251	1	8
-Not many books survived the fire, did they ?	642.16095	1	9
-No books survived the fire, did they ?	2118.1543	1	8
-He hasn't often paid taxes, has he ?	92.57167	1	8
-He can't pay taxes, can he ?	107.07608	1	7
-She does not see him .	727.8962	1	6
-She kept not seeing him .	5410.3257	1	6
-She could not have been working .	181.88756	1	7
-He could not have been working .	181.88756	1	7
-He cannot have been working .	183.06691	1	6
-He can simply not have been working .	561.2438	1	8
-You must not simply not work .	648.46466	1	7
-He may not just not have been working .	251.0721	1	9
-He can't have been working .	183.06691	1	6
-Can't he have been working ?	354.7767	1	6
-Can he not have been working ?	165.0208	1	7
-Can he not have been working ?	165.0208	0	7
-John did not write books .	2400.2485	1	6
-John seems that is nice .	801.37335	0	6
-`` I am so happy '', thought John .	150.45331	1	9
-down the hill rolled John .	804.7405	1	6
-John kisses often Mary .	17.303066	0	5
-John often kisses Mary .	15.902755	1	5
-Who do you think Mary said John likes ?	179.39326	1	9
-Who did you ask whether Mary knows why John likes ?	537.7781	0	11
-Who do you think that Mary said that John likes ?	139.39081	1	11
-How do you wonder whether Mary solved the problem ?	1082.2198	0	10
-How do you think that Mary solved the problem ?	471.72845	1	10
-How do you wonder whether John said that Mary solved the problem ?	310.36133	0	13
-How do you wonder whether John said Mary solved the problem ?	748.8719	0	12
-Which problem do you wonder whether John said that Mary solved ?	753.1258	0	12
-How did you think that Mary solved the problem ?	458.89825	1	10
-I heard that Mary hired someone .	399.6336	1	7
-I resigned because Mary hired someone .	1767.2872	1	7
-Mary wondered which picture of himself Bill saw ?	171.28171	1	9
-Which picture of himself does Mary think that John said that Susan likes ?	280.7227	1	14
-Mary thinks that John said that Susan likes pictures of himself ?	642.2118	0	12
-Mary thinks that John said that pictures of himself, Susan likes ?	234.46982	1	12
-If you don't believe me, you will the weatherman ?	77.17849	1	10
-I rolled up a newspaper, and Lynn did a magazine ?	117.44165	1	11
-Kathy likes astronomy, but she doesn't meteorology ?	136.54355	1	8
-The DA proved Jones guilty and the Assistant DA will prove Smith .	63.509247	1	13
-Mary will believe Susan, and you will Bob .	62.2632	1	9
-You might not believe me but you will Bob .	385.66144	1	10
-You will Bob believe .	85.81328	0	5
-How did you solve the problem ?	809.12146	1	7
-I wonder who could solve the problem in this way .	712.53705	1	11
-How do you wonder who could solve this problem .	1672.9171	0	10
-No candidate can predict how many people will vote for him .	6567.067	1	12
-Every politician is worried when the press starts attacking him .	5815.974	1	11
-Which politician appointed the journalist who supported him ?	6542.0757	1	9
-The fact that no candidate was elected shows that he was inadequate .	952.62103	0	13
-John sells books, Mary buys records and Bill V newspapers .	253.41125	1	11
-The question of whether John met Mary worries the people who support .	601.74524	1	13
-Could they have left ?	114.42124	1	5
-He has often seen Mary .	237.97363	1	6
-He I often sees Mary .	142.10326	1	6
-He sees often Mary .	144.04478	0	5
-Sees he I often Mary ?	45.850933	0	6
-It seems that it is likely that John will win .	128.21344	1	11
-It seems that John is likely to win .	124.33742	1	9
-John seems to be likely to win .	253.62727	1	8
-John seems that it is likely to win .	177.49268	0	9
-John seems will win .	352.8443	0	5
-How do you wonder which problem to solve ?	998.8959	0	9
-How intelligent do you consider John ?	329.55722	1	7
-How many people do you wonder whether I consider intelligent ?	1101.2697	0	11
-How intelligent do you wonder whether I consider John ?	251.98688	0	10
-What the hell do you wonder how to say ?	974.3143	0	10
-His book is nice .	702.71387	1	5
-Bill works with him .	340.0858	1	5
-John believes him to be a nice guy .	366.40698	1	9
-John considers him a nice guy .	2914.0293	1	7
-For him to do that would be a mistake .	450.02643	1	10
-With him sick, the team is in trouble .	187.39375	1	9
-A man to be in the garden is unlikely .	278.61032	0	10
-A man to come is unlikely .	237.36131	0	7
-John to call would be unlikely .	269.61972	0	7
-This conclusion to be arrived at is surprising .	490.702	0	9
-John believes that he is sick .	261.44205	1	7
-John believes that him is sick .	494.71265	0	7
-John tries him to win .	3474.3276	0	6
-John wonders where him to go .	85.069984	0	7
-Who do you think that Bill likes ?	621.38245	1	8
-Who do you think that Bill believes to be innocent ?	253.01366	1	11
-Who do you think that believes John to be innocent ?	245.04245	0	11
-Who would you prefer for to win the race ?	967.32324	0	10
-Someone stole my car .	102.869576	1	5
-My car was stolen .	1203.1582	1	5
-The children eat all chocolate .	976.4975	0	6
-John has often kissed Mary .	44.276474	1	6
-The kids have all eaten the chocolate .	405.16965	1	8
-In general, he understands what's going on .	138.17377	1	8
-It's probable that in general he understands what's going on .	1266.0858	1	11
-It's probable in general that he understands what's going on .	1030.7831	0	11
-In general that he understands what's going on is surprising .	527.2943	0	11
-I explained how to fix the sink .	2130.8965	1	8
-I explained how we should fix the sink .	1407.7906	1	9
-I explained that we should fix the sink .	998.76825	1	9
-I explained to fix the sink .	1034.3187	0	7
-Mickey looked up the reference .	1624.0469	1	6
-Mickey looked the reference up .	2929.8613	1	6
-Mickey looked up them .	235.62682	1	5
-Mickey teamed up with the women .	34.280247	1	7
-Mickey teamed with the women up .	44.503548	0	7
-Mickey pointed out that Gary had left .	166.22112	1	8
-Mickey pointed that Gary had left out .	140.64621	0	8
-Mickey slips up all the time .	44.5472	1	7
-Mickey slips all the time up .	53.085777	0	7
-What does John think Mary bought ?	118.973595	1	7
-John thinks what Mary bought .	2552.4734	0	6
-John wonders what Mary bought .	103.59466	1	6
-What does John wonder Mary bought ?	129.65886	0	7
-Who is he reading a book that criticizes ?	82.391075	0	9
-What do you remember where we bought ?	1845.7928	0	8
-Who is reading a book that criticizes who ?	82.93008	1	9
-Who remembers where we bought what ?	279.912	1	7
-I wonder who what bought ?	5813.146	0	6
-I wonder what who bought ?	19664.607	0	6
-There aren't many linguistics students here .	71.42736	1	7
-I haven't met many linguistics students .	84.01837	1	7
-What does every student buy ?	3550.1482	1	6
-I need Sally to be there .	48.88988	1	7
-The boat sank to collect the insurance .	6567.236	0	8
-The boat was sunk to collect the insurance .	281.26694	1	9
-John wants to win .	420.05322	1	5
-The bed was unmade .	70.85732	1	5
-John was unknown to be the murderer .	359.2928	0	8
-We knew John to be the murderer .	49.641674	1	8
-He fed the children .	181.9154	1	5
-The children were uneducated .	61.594147	1	5
-The children were undisciplined .	61.594147	1	5
-I believed these students all to like John .	318.60535	1	9
-They tried to all like John .	542.65173	1	7
-I believed these students to all like John .	269.17947	1	9
-Did he try ever to talk to the student ?	477.7841	0	10
-Did you believe him ever to have made an effort to talk to the student ?	552.9107	1	16
-Did he try to ever be attentive to the needs of students ?	119.82475	1	13
-Did you believe him to ever have made an effort to talk to the student ?	417.63443	1	16
-work out an analysis that is typical of this view of understood subjects .	836.1268	1	14
-They were believed all to be quite diligent .	152.80942	1	9
-Was he believed ever to fail students ?	781.11005	1	8
-There is tending to be more and more discussion of these issues .	120.28387	1	13
-John seemed to be a great linguist .	126.49983	1	8
-There promises to be a storm tonight .	367.8188	1	8
-John strived to be successful .	68.83684	1	6
-John wanted to improve his lot in life .	344.99557	1	9
-John expected to win .	296.6445	1	5
-This book is too dense to be read in one sitting .	188.67348	1	12
-There is too likely to be a riot to be a serious discussion of the issues .	124.5397	0	17
-Bill seems to be obnoxious, but I don't think that Sam happens .	61.470886	0	13
-Bill seems to be obnoxious, but I don't think that Sam turns out .	114.22347	0	14
-Bill seems to be obnoxious, but I don't think that Sam tends .	66.04761	0	13
-They tried all to like John .	1064.2423	0	7
-They seemed all to like John .	674.9637	1	7
-John believes Sally to be polite .	74.33223	1	7
-I believe John with all my heart to be a fine person .	220.97758	1	13
-John is wanted to win .	560.79114	0	6
-John would be liked to win .	225.36005	0	7
-We would like John to win .	87.75634	1	7
-John would be hated to win .	34.71989	0	7
-John would be preferred to be the candidate .	274.72296	0	9
-We would prefer John to be the candidate .	199.5248	1	9
-I would like for John to win .	168.47232	1	8
-I would hate for John to win .	237.28232	1	8
-I would prefer for John to be the candidate .	348.48053	1	10
-John destroyed the house .	130.47989	1	5
-The electrode emitted ions into the medium .	10.61634	1	8
-Ions struck the electrode .	45.51419	1	5
-The medium contains ions .	311.20114	1	5
-The house destroyed John .	185.75722	0	5
-Ions left the electrode .	41.246395	1	5
-The electrode was left by ions .	87.99724	0	7
-The electrode was struck by ions .	131.93596	1	7
-The ball lies in the box .	1537.6877	1	7
-The ball rolled from the bush to the tree .	2523.807	1	10
-The box contains the ball .	6159.424	1	6
-The tree dropped fruit to the ground .	4229.4604	1	8
-Fruit hit the ground from the tree .	405.16885	1	8
-The stone knocked against the pole into the road .	365.46683	1	10
-The stone knocked the pole into the road .	211.6662	1	9
-The box contained the ball .	6263.453	1	6
-The box gradually contained the ball .	6807.764	0	7
-The box at once contained the ball .	3470.238	0	8
-The box contained the ball to the ground .	558.08356	0	9
-The tree gradually dropped its fruit to the ground .	2342.5906	1	10
-The tree dropped its fruit to the ground .	565.23883	1	9
-Fruit hit the roof .	38.885796	1	5
-Fruit hit the roof from the tree .	93.3052	1	8
-Fruit at once hit the roof from the tree .	196.31496	1	10
-Fruit hit the roof against the ground .	150.28036	0	8
-Fruit at once hit the roof against the ground .	204.78242	0	10
-Fruit dropped from the tree .	613.274	1	6
-Fruit dropped from the tree from the clouds .	260.83786	0	9
-Fruit fell against the house .	420.4907	0	6
-Fruit fell against the house against the ground .	185.46268	0	9
-The tree changed into an oak .	1804.2168	1	7
-The tree changed from a maple into an oak .	536.6244	1	10
-The maple changed into an oak from a cedar .	223.04285	0	10
-The maple changed into an oak from a cedar .	223.04285	1	10
-The maple changed into an oak .	263.82724	1	7
-The oak developed out of a maple .	1697.6573	1	8
-The train reached the station .	3925.0002	1	6
-The branches knocked against the wall .	6602.8433	1	7
-The child became a man .	1027.1611	1	6
-The party lasted till midnight .	200498.28	1	6
-The dog went crazy .	4852.764	1	5
-It struck John that it was so .	113.33798	1	8
-It came to John that it was so .	59.982468	1	9
-The snake saw into the nest .	91.20148	1	7
-Hard work resulted in high grades .	1869.4456	1	7
-The farm passed to John .	350.9723	1	6
-John is touching the wall .	113.84474	1	6
-The wall is being touched by John .	4164.9766	1	8
-A bear occupies the cave .	46.49838	1	6
-A bear inhabits the cave .	46.49838	1	6
-Water fills the tub .	6.3665137	1	5
-The electric main joins the house circuit in the basement .	1880.0881	1	11
-The house circuit is joined by the electric main in the basement .	267.50278	1	13
-The fence straddles the sidewalk .	114.882385	1	6
-The sidewalk is straddled by the fence .	449.32184	1	8
-The man with a book .	271.39316	1	6
-Gas escaped the tube .	1043.4908	1	5
-The terrorist escaped the prison cell .	22818.35	1	7
-The prison cell was escaped by the terrorist .	2712.3948	1	9
-The rolling stone avoided the river .	6731.7183	1	7
-The river was avoided by the rolling stone .	630.14355	1	9
-The agents caught the terrorist .	9843.999	1	6
-The sponge soaked up the water .	11.759247	1	7
-The tub filled with water .	322.7427	1	6
-John received a book .	211.30226	1	5
-John learned a lesson .	445.81903	1	5
-The parcel reached John .	522.9886	1	5
-John received the parcel .	552.4374	1	5
-The farm finally got to John after much litigation .	1652.9943	1	10
-The farm finally reached John after much litigation .	884.0435	0	9
-Water filled the cup high .	2434.7593	1	6
-Water filled the cup .	364.9578	1	5
-Water emptied the cup .	41.477825	0	5
-The cup filled the water high .	3915.7356	0	7
-The cup filled of water .	3539.6377	0	6
-The cup filled with water .	4931.126	1	6
-The cup emptied with water .	396.2265	0	6
-the barge piled high with logs .	49.85776	1	7
-the road blocked with a stone .	998.3359	0	7
-the branch dropped bare of its apple .	897.3681	0	8
-the logs piled the barge high .	6.175844	0	7
-a stone blocked the road .	3071.8318	1	6
-the bottle drained the liquid free .	321.701	0	7
-the branch dropped its apple free .	31707.707	1	7
-Some branches broke off of the tree .	4693.432	1	8
-The tree broke off some branches .	2813.069	0	7
-The tree dropped some branches .	15665.108	1	6
-The tree lost some branches .	8804.525	1	6
-Water bubbled out of the kettle .	24.896582	1	7
-The kettle bubbled water up .	57.567383	0	6
-The kettle bubbled water .	18.876741	1	5
-The cup filled water .	3424.2102	0	5
-The stone knocked the pole into the road .	211.6662	0	9
-The tub leaked empty of water .	116.78498	1	7
-The stone knocked against the pole into the road .	365.46683	0	10
-Hail stones broke the window .	6338.627	1	6
-The force of the wind broke the window .	378.56796	1	9
-The window broke from hail stones .	834.07007	0	7
-The window broke from the force of the wind .	386.72784	1	10
-What the force of the wind did to the window was break it .	413.6176	1	14
-John hit the stone against the wall .	883.5762	1	8
-John hit the wall with the stone .	754.22516	1	8
-John tapped some wine from a barrel .	3535.0361	1	8
-John tapped a barrel of some wine .	1388.1575	1	8
-John laid the book on the table .	862.6465	1	8
-John included his name in the list .	654.7684	1	8
-John loaded the bricks onto the truck .	12309.177	1	8
-John loaded the truck with bricks .	2777.3809	1	7
-John fed rice to the baby .	867.13684	1	7
-John fed the baby rice .	2707.2017	1	6
-John fed the baby up with rice .	1388.748	1	8
-John fed the baby rice up .	2707.2017	0	7
-The ball lies completely in the box .	9275.527	1	8
-The box completely contains the ball .	3510.97	1	7
-The train got to the station fully .	936.4971	1	8
-The train reached the station fully .	3925.0002	1	7
-Press the stamp against the pad completely .	33.613895	1	8
-Press the pad with the stamp completely .	20.163006	1	8
-Spray the paint onto the wall completely .	125.87261	1	8
-Spray all the paint onto the wall completely .	276.2345	1	9
-Spray the wall with all the paint .	366.34653	0	8
-Spray the whole wall with the paint .	473.63483	1	8
-What John did to the wall was paint it .	129.04562	1	10
-What John did to the whole wall was paint it .	158.81856	1	11
-What John did to the wall was hit it .	292.20035	1	10
-What the stone did to the wall was hit it .	696.2705	0	11
-What the stone did to the whole wall was hit it .	557.92126	0	12
-John took Bill to be a fool .	54.020737	1	8
-John concluded Bill to be a fool .	76.35663	0	8
-Give the bottle to the baby full .	183.47668	1	8
-Give the bottle to the baby awake .	183.47668	0	8
-Give the baby the bottle full .	702.53424	1	7
-Give the baby the bottle awake .	702.53424	0	7
-Rub the cloth on the baby torn .	16.445755	1	8
-Rub the cloth on the baby asleep .	16.445755	0	8
-Rub the baby with the cloth torn .	156.69762	1	8
-Rub the baby with the cloth asleep .	156.69762	0	8
-Dry the baby with the cloth asleep .	156.69762	1	8
-Dry the baby with the cloth torn .	156.69762	0	8
-The cup knocked the stone apart .	7902.388	0	7
-The stone knocked the cup apart .	4849.8726	1	7
-The cup smashed apart against the stone .	1683.045	1	8
-The stone smashed the cup apart .	431.93884	1	7
-The tank filled with petrol out of the pump .	849.63696	1	10
-The cup emptied of water onto the ground .	304.78595	1	9
-John included her name in the list .	888.69995	1	8
-John rolled the ball from the tree to the bush .	569.7785	1	11
-John tapped the bottle of some water .	1296.8049	1	8
-John gave Bill the book .	212.85597	1	6
-John got the book from Bill .	401.50833	1	7
-John gave Bill of the book .	46.76814	0	7
-We have someone in the living room .	157.68364	1	8
-John is very fond of Mary .	56.706184	1	7
-Mary laughed at John .	10.350489	1	5
-The ship sank beneath the waves .	4333.2744	1	7
-Mary considers John a fool and Bill a wimp .	118.485405	1	10
-John regards professors as strange and politicians as creepy .	570.6641	1	10
-Sue put the books on the table and the records on the chair .	342.92197	1	14
-Harriet gave a mug to John and a scarf to Vivien .	39.458702	1	12
-I expect John to win and Harry to lose .	192.22014	1	10
-You eat the fish raw and the beef cooked .	677.33344	1	10
-They told Sue who to talk to and Virginia when to leave .	108.658714	1	13
-Smith loaned, and his widow later donated, a valuable collection of manuscripts to the library .	206.27689	1	16
-Sue moved, and Mary also transferred, her business to a different location .	107.17661	1	13
-I succeeded in convincing, even though John had failed to persuade, Mary not to leave .	130.336	1	16
-We didn't particularly like, but nevertheless ate, the fish raw .	116.402985	1	11
-Flo desperately wants, though she doesn't really expect, the Miami Dolphins to be in the play-offs .	40.470158	1	17
-John learned French perfectly .	276.95688	1	5
-Bill recited his lines poorly .	1390.0146	1	6
-Mary plays the violin beautifully .	1502.2413	1	6
-John perfectly learned French .	170.91498	0	5
-Bill poorly recited his lines .	1208.0216	0	6
-John learned French immediately .	124.51274	1	5
-Bill recited his lines slowly .	542.89166	1	6
-Mary will play the violin soon .	2906.7283	1	7
-John immediately learned French .	119.69535	1	5
-Bill slowly recited his lines .	468.24316	1	6
-Mary will soon play the violin .	942.3945	1	7
-John immediately learned French perfectly .	1911.6577	1	6
-John learned French perfectly almost immediately .	1462.764	1	7
-John learned French perfectly immediately .	1563.7949	1	6
-John perfectly learned French immediately .	1315.6925	0	6
-John learned French immediately perfectly .	1579.6488	0	6
-Clearly, John immediately will probably learn French perfectly .	349.429	0	9
-Immediately, John probably will clearly learn French perfectly .	419.66364	0	9
-Clearly, John perfectly will immediately learn French probably .	488.03717	0	9
-John perfectly rolled the ball down the hill .	1074.306	0	9
-John rolled the ball perfectly down the hill .	1535.0424	1	9
-John rolled the ball down the hill perfectly .	1800.9987	1	9
-John perfectly shot the ball .	7856.4526	0	6
-John shot the ball perfectly .	10415.348	1	6
-John intimately spoke to Mary .	104.70251	0	6
-John spoke intimately to Mary .	54.246235	1	6
-John spoke to Mary intimately .	96.341736	1	6
-John spoke French intimately to Mary .	34.03692	1	7
-John spoke French to Mary intimately .	54.246235	1	7
-Mary jumped the horse perfectly over the last fence .	736.10565	1	10
-Mary jumped the horse over the last fence perfectly .	672.05023	1	10
-John spoke intimately French to Mary .	34.03692	0	7
-John spoke to Mary French .	96.341736	0	6
-Mary persuaded to leave John .	192.6481	0	6
-The lions ate raw the meat .	58.16334	0	7
-Mary persuaded that he should rest Bill .	376.65897	0	8
-We consider the men all fools .	895.8922	1	7
-We consider the men all totally crazy .	895.8922	1	8
-I saw the men all .	814.02264	0	6
-The men were arrested all .	2851.6614	0	6
-The men arrived all .	515.8597	0	5
-The teacher ordered the two boys both to pay close attention .	1426.4998	1	12
-They returned the books all to their owners .	725.2106	1	9
-We painted the chairs all red .	9188.935	1	7
-The trainer fed the steaks all to the lions .	60.07243	1	10
-Bill proud of himself John doesn't consider .	341.3268	0	8
-Home was gone by John .	155.21175	0	6
-Mary left the room angry .	4090.6443	1	6
-The room was left angry by Mary .	4027.6086	0	8
-The room was left angry .	4027.6086	0	6
-Bill is resembled by John .	21.173903	0	6
-The package weighed 10 lb .	778.2184	1	6
-10 lb was weighed by the package .	194.96693	0	8
-This book cost $10 .	198.99803	1	5
-$10 was cost by this book .	267.60165	0	7
-The book cost John $10 .	198.99803	1	6
-John was cost $10 by the book .	78.54414	0	8
-John is impressed by Bill as pompous .	294.51007	0	8
-The boys were made a good mother .	406.24738	0	8
-The boys were made a good mother by Aunt Mary .	294.2605	0	11
-The kids were failed by Max as a father .	443.10648	0	10
-The kids were failed as a father .	3009.758	0	8
-The men were struck by the idea as nonsense .	707.70306	0	10
-The men were promised to leave .	880.04	0	7
-He impresses his friends all as pompous .	281.2432	0	8
-Aunt Mary made the boys all a good mother .	238.54453	0	10
-Max failed the kids all as a father .	666.00934	0	9
-Frank promised the men all to leave .	1122.691	0	8
-We proclaimed to the public John to be a hero .	182.8359	0	11
-We proclaimed John to the public to be a hero .	212.27872	1	11
-We proclaimed sincerely John to be a hero .	146.49648	0	9
-We proclaimed John sincerely to be a hero .	146.49648	1	9
-We proclaimed sincerely to the public John to be a hero .	103.45703	0	12
-We proclaimed John sincerely to the public to be a hero .	137.94789	1	12
-They represented to the dean Mary as a genuine linguist .	248.4718	0	11
-They represented Mary to the dean as a genuine linguist .	260.67026	1	11
-They represented seriously Mary as a genuine linguist .	192.33437	0	9
-They represented Mary seriously as a genuine linguist .	176.75366	1	9
-They represented Mary seriously to the dean as a genuine linguist .	277.3807	1	12
-We proved to the authorities Smith to be the thief .	139.4279	0	11
-We proved conclusively Smith to be the thief .	92.95247	0	9
-We proved Smith conclusively to be the thief .	92.95247	1	9
-We proved conclusively to the authorities Smith to be the thief .	80.72478	0	12
-We proved Smith conclusively to the authorities to be the thief .	95.98714	1	12
-The gardener watered the tulips flat .	6.212739	1	7
-The grocer ground the coffee beans to a fine powder .	276.0807	1	11
-They painted their house a hideous shade of green .	383.43683	1	10
-The joggers ran their Nikes threadbare .	99.83744	1	7
-The kids laughed themselves into a frenzy .	837.32336	1	8
-He coughed his handkerchief completely soggy .	60.203568	1	7
-They fed the meat to the lions raw .	282.45154	1	9
-The lions ate at the meat raw .	9.619181	0	8
-he belief that Mary kissed Bill is mistaken .	18.741617	0	9
-him belief that Mary kissed Bill is mistaken .	21.617342	0	9
-his belief that Mary kissed Bill is mistaken .	20.476835	1	9
-Mary is fond of him .	60.61456	1	6
-Mary is fond him .	30.70616	0	5
-Mary's criticism him was cruel .	830.80725	0	6
-Mary's criticism of him was cruel .	1220.7797	1	7
-That John loves Mary is doubtful .	6.7461567	1	7
-John to love Mary would be doubtful .	79.655594	0	8
-For John to love Mary would be doubtful .	55.919247	1	9
-To go abroad would be nice .	1382.1924	1	7
-John's plan to go abroad is nice .	1663.33	1	8
-Mary believed John to have loved her .	77.68033	1	8
-Mary considered John to have loved her .	81.05603	1	8
-Mary reported John to have loved her .	78.529724	1	8
-Mary considered to have loved her .	1094.0947	0	7
-Mary tried to go abroad .	1439.9637	1	6
-Mary intended to go abroad .	1845.1602	1	6
-Mary managed to go abroad .	2744.8086	1	6
-Mary desired to go abroad .	203.30965	1	6
-Mary tried John to go abroad .	111.29952	0	7
-Mary managed John to go abroad .	167.5102	0	7
-Mary desired John to go abroad .	19.859747	0	7
-Mary believed him to have loved her .	411.33414	1	8
-Mary considered him to have loved her .	664.2054	1	8
-Mary believed he to have loved her .	245.89058	0	8
-Mary considered he to have loved her .	429.66913	0	8
-Mary reported he to have loved her .	236.84756	0	8
-Mary believed his to have loved her .	674.64	0	8
-Mary considered his to have loved her .	980.15393	0	8
-Mary reported his to have loved her .	630.2271	0	8
-It is certain that John has loved Mary .	100.547	1	9
-It is likely that John has loved Mary .	81.68744	1	9
-There are strangers in that garden .	66.81758	1	7
-There is strangers in that garden .	49.703968	0	7
-There is arriving three men at that station .	187.57191	0	9
-There are arriving three men at that station .	220.6938	1	9
-I consider there to be a man in that garden .	174.15005	1	11
-I consider there a man in that garden .	320.87936	0	9
-They alleged there to have been many strangers in that garden .	178.82736	1	12
-They alleged many strangers to have been in that garden .	226.09897	0	11
-John wagered there to have been a stranger in that haunted house .	50.00786	1	13
-John wagered a stranger to have been in that haunted house .	57.146767	0	12
-John tried to kiss Mary .	53.608074	1	6
-John persuaded Mary to kiss him .	43.83299	1	7
-John told Mary to kiss him .	38.198036	1	7
-It is illegal to park here .	3440.2817	1	7
-I remembered him having kissed Mary .	1130.3499	1	7
-I reported him having kissed Mary .	819.72516	1	7
-I reported having kissed Mary .	240.70152	1	6
-I enjoy taking a bath .	514.0985	1	6
-I detest taking a bath .	62.389595	1	6
-I enjoy him taking a bath .	2530.7483	0	7
-I detest him taking a bath .	276.05792	0	7
-I saw him kissing Mary .	92.206505	1	6
-I noticed him kissing Mary .	121.39768	1	6
-I noticed kissing Mary .	30.09373	0	5
-There was known to everyone .	416.714	0	6
-John's refusing the offer is shocking .	1468.0116	1	7
-the enemy's destroying the city was horrific .	547.9154	1	8
-John's refusal of the offer was shocking .	921.3289	1	8
-the enemy's destruction of the city was horrific .	63.021114	1	9
-John wanted to leave the room happy and leave the room he did happy .	490.64233	0	15
-I often send Mary home drunk, and she gets there just fine .	284.95596	1	13
-I raw eat fish drunk .	30469.457	0	6
-I only eat fish drunk raw .	13609.5625	0	7
-I don't think Fred will, either .	30.19648	1	7
-José likes cabbage, and Holly does too .	46.0552	1	8
-José ate cabbage, and Holly has too .	6.041975	1	8
-José is eating cabbage, and Holly is too .	67.86366	1	9
-John is leaving but Mary's not .	181.2162	1	7
-I consider Bill intelligent and I consider Sally not .	65.03843	1	10
-Sally started running down the street, but only after José started .	623.6782	0	12
-Sally made Bill laugh, and then José made .	37.052143	0	9
-Mary came to read Fred's story, and I also came to .	76.49099	0	12
-John wants to go on vacation, but he doesn't know when to .	131.9199	1	13
-Mary was told to bring something to the party, so she asked Sue what to .	158.28358	0	16
-We might go on vacation if we can ever figure out when to .	985.47723	0	14
-Ron wanted to wear a tuxedo to the party, but Caspar couldn't decide whether to .	82.13305	0	16
-You shouldn't play with rifles because to is dangerous .	229.68645	0	10
-John is being discussed and Sally is being too .	264.31317	0	10
-I remember John being discussed, but you recall Sally being .	159.35031	0	11
-Sally might have eaten cabbage, but Holly shouldn't .	19.742765	1	9
-José asks that we go to the meeting, and Sally will tell us when .	242.74756	1	15
-It's we go to the meeting, that Sally will tell us when .	113.75445	0	13
-It's to Mary that Joe said Holly can talk .	61.997337	1	10
-Mary claimed that eaten cabbage, Holly hasn't .	78.354004	1	8
-Mary claimed that eating cabbage, Holly's not .	1106.4586	1	8
-Mary claimed that eat cabbage, Holly wants to .	290.9865	1	9
-Mary claimed that would eat cabbage, Holly .	2081.9414	0	8
-Mary claimed that hasn't eaten cabbage, Holly .	78.354004	0	8
-Mary claimed that eating cabbage, Holly started .	1106.4586	0	8
-Mary claimed that eat cabbage, Holly made me .	275.95685	0	9
-Mary claimed that have eaten cabbage, Holly should .	69.36939	0	9
-Mary claimed that intelligent, I consider Holly not .	85.15477	0	9
-Lilly recounted a story to remember because Holly had also recounted a story to .	186.95248	0	15
-I reviewed Joe's attempt to find Holly while you reviewed José's attempt to .	593.2627	0	14
-Mary questioned Joe's desire to eat cabbage, but only after I had questioned Sally's desire to .	212.86916	0	17
-Sally explained the attempt to arrest Holly, but only after I had denied the decision to .	457.94977	0	17
-John didn't hit a home run, but I know a woman who did .	227.25421	1	14
-That Betsy won the batting crown is not surprising, but that Peter didn't know she did is surprising .	121.59228	1	19
-You shouldn't have played with rifles because to have is dangerous .	164.78899	0	12
-Ron wanted to be wearing a tuxedo to the party, but Caspar didn't know whether to be .	99.30709	0	18
-Lilly recounted a story to be remembered because Holly had recounted a story to be .	154.20956	0	16
-Lilly decided that eating cabbage, she should be .	226.08528	1	9
-Lilly decided eating cabbage, to be .	614.69214	0	7
-Read Fred's story, I also want to .	18.382212	1	8
-You shouldn't play with rifles because play with rifles to is dangerous .	170.50504	0	13
-Ron wanted to wear a tuxedo to the party, but wear a tuxedo to the party Caspar couldn't decide whether to .	108.619865	0	22
-Lucy Barnes recounted a story to remember because remember Holly had recounted a story to .	137.02164	0	16
-Mag Wildwood came to introduce the bartender but I came not to .	121.12846	1	13
-Mag Wildwood came to introduce the bartender but I came precisely not to .	227.05794	1	14
-You should unload rifles because not to s is dangerous .	1056.3577	1	11
-If Ron knows whether to wear a tuxedo, and Caspar knows whether not to, do they know different things ?	268.49762	1	20
-Lucy recounted a story to remember because Holly had recounted as story not to .	212.7896	1	15
-I will, if I can work on it .	53.80642	0	9
-A proof that God exist does .	524.58954	0	7
-A proof that God does exists .	242.0612	0	7
-I visited every town in every country I had to .	558.75934	0	11
-Every man who said he would buy some salmon did .	410.0133	1	11
-I visited every town I had to .	842.1556	1	8
-Every town in every country I had to I visited .	219.20137	1	11
-Every man who said he would buy some salmon did buy some salmon .	315.63898	1	14
-Lilly should buy salmon and Mary should too .	98.418015	1	9
-Lilly should buy salmon and Mary should buy salmon too .	115.58241	1	11
-Joe's neuroses bother his patrons, and Sally's neuroses do too .	79.52519	1	11
-Joe likes his bar, and Sally's patrons do too .	126.4754	1	10
-Every picture of itself arrived .	2662.2314	1	6
-My uncle doesn't have a spouse but your aunt does and he is lying on the floor .	381.69543	1	18
-My uncle didn't buy anything for Christmas, but my aunt did it for him and it was bright red .	235.35541	0	20
-I know which book Max read, and which book Oscar didn't .	526.1555	1	12
-This is the book of which Bill approves, and this is the one of which he doesn't .	50.153446	1	18
-I know which book Mag read, and which book Bob asked why you hadn't .	517.31573	0	15
-I know which book Mag read, and which book Bob discussed after I had .	342.8811	0	15
-Dulles suspected everyone who Angleton did .	479.11963	1	7
-While Bob read Fred, he didn't Dickens .	61.55768	1	8
-Sally suspected Joe, but he didn't Holly .	148.45074	1	8
-Although Mag doesn't eggplants, Sally eats cabbage .	3.3799026	0	8
-Although I don't know which book Sam did, I do know which book Sally read .	248.34967	0	16
-Near everyone Angleton did, Dulles stood .	20.1537	0	7
-Sally will stand near Mag, but he won't Holly .	94.47737	0	10
-While Holly didn't discuss a report about every boy, she did every girl .	341.92532	0	14
-Sally will stand near every woman that you will .	992.04535	1	10
-I know which woman Holly will discuss a report about, but I don't know which woman you will .	419.69165	1	19
-Sam stood near yesterday every one of the women we'd been discussing .	1164.7866	0	13
-Truman visited yesterday you .	1587.069	0	5
-Truman told the story Bob .	186.75816	0	6
-While Truman didn't visit me, he did you .	55.339653	1	9
-While Truman didn't tell me a story, he did Rusty .	149.11485	1	11
-While José won't talk about Mag, he might about Holly .	137.93356	1	11
-Although Doc might tell it to you, he won't to me .	78.84539	1	12
-I think you need to show yourself more than you do anyone else .	1657.6039	1	14
-While Truman doesn't want to visit every city, he does Barcelona .	141.3773	1	12
-While Rusty might leave in order to please Mag, he won't his father .	205.09543	0	14
-While Doc might claim that Bob had read his book, he won't the paper .	111.6488	0	15
-I'll turn the radio down, but I won't up .	112.58936	0	10
-Fred likes eggplants, although he likes cabbage too .	176.5111	1	9
-Although he likes cabbage too, Fred likes eggplants .	40.66825	1	9
-Fred gave flowers to his sweetie because Frank had .	193.93227	1	10
-China is a country that Joe wants to visit, and he will too, if he gets enough money .	128.49878	1	19
-Jerry wouldn't read a book by Babel, but Meryl has done so and it was pretty good .	205.70668	1	18
-I know which book Max read, and which book Oscar hasn't done so .	305.55267	0	14
-Joe might wish he had, but this isn't a country he has visited .	281.02054	1	14
-While I might want to, this is the kind of thing that Harris has already suggested .	98.433876	1	17
-We like our friends and they do too .	355.14417	1	9
-We like our friends and they like our friends too .	839.69037	1	11
-We like our friends and they like their friends, too .	301.98495	1	11
-Rusty talked about himself only after Holly did .	355.50302	1	9
-Rusty talked about himself only after Mary did talk about himself .	801.5828	0	12
-I could find no solution, but Holly might .	89.34064	1	9
-Fred talked about everything before Rusty did .	1634.5007	1	8
-Joe will go to the store, even though Fred already has .	102.229195	1	12
-Today there is little or no official harassment of lesbians and gays by the national government, although autonomous governments might .	118.49252	1	21
-The candidate was dogged by charges of infidelity and avoiding the draft, or at least trying to .	621.7814	1	18
-David is a great artist, and when he does, his eyes squint at you .	70.475914	0	15
-The candidate was dogged by charges of infidelity, or at least trying to .	1006.1626	0	14
-This information could have been released by Gorbachev, but he chose not to .	566.62537	1	14
-A lot of this material can be presented in a fairly informal and accessible fashion, and often I do .	542.85675	1	20
-John likes not Mary .	139.14684	0	5
-John does not like Mary .	198.23979	1	6
-John meets often Mary .	381.54767	0	5
-John tries to often meet Mary .	5833.372	1	7
-John tries to meet often Mary .	5301.1084	0	7
-John tries not to meet Mary .	6574.8564	1	7
-John tries to meet not Mary .	3903.294	0	7
-Is Mary running the marathon ?	1389.5018	1	6
-Runs Mary the marathon ?	108.51001	0	5
-Mary is often running the marathon .	690.8685	1	7
-Mary runs often the marathon .	4511.207	0	6
-Mary is not running the marathon .	396.37503	1	7
-I didn't, as Bill had thought, go to the store .	46.20577	1	11
-I did, as Bill had thought, go to the store .	46.20577	1	11
-I did not, as Bill had thought, go to the store .	73.650764	0	12
-The writers could so believe the boy .	2701.467	1	8
-The writers so believed the boy .	1315.5288	0	7
-The writers did so believe the boy .	2585.9067	1	8
-The writers didn't so believe the boy .	537.82526	0	8
-Rome's destruction of Carthage was horrific .	197.59229	1	7
-John bought the picture of himself that Bill saw .	318.8929	1	10
-The perception of the problem is quite thorough .	98.247246	1	9
-The knowledge of the problem is quite thorough .	94.284256	1	9
-The problem's perception is quite thorough .	432.06656	0	7
-The problem's knowledge is quite thorough .	327.30832	0	7
-The problem knows easily .	1904.8152	0	5
-The ship sank to collect the insurance .	7691.5156	0	8
-The sinking of the ship was very devious .	96.38856	1	9
-The sinking of the ship to collect the insurance was very devious .	258.13187	1	13
-The ship's sinking was very devious .	454.41284	1	7
-The ship's sinking to collect the insurance was very devious .	771.3365	0	11
-The testing of such drugs on oneself is too risky .	684.92236	1	11
-This drug's testing on oneself is too risky .	383.57324	0	9
-The ship was sunk to collect the insurance .	312.06702	1	9
-This drug must first be tested on oneself .	373.0386	1	9
-The president's moral destruction is complete .	1468.5367	1	7
-The moral destruction of the president was certainly not helpful .	756.0161	1	11
-Mary wants to wear nice blue German dress .	1057.2985	1	9
-Tomatoes were introduced in Europe after 1492 .	210.52464	1	8
-We rich have impeccable taste .	1084.2013	1	6
-Rich we have impeccable taste .	414.68402	0	6
-I read three his books .	4027.82	0	6
-I read every his book .	3034.3677	0	6
-I read his every book .	2438.7644	1	6
-Every boy named a planet .	5330.756	1	6
-I showed every boy a planet .	1939.652	1	7
-Few boys read any of the books .	4481.508	1	8
-I showed few boys any of the books .	602.87823	1	9
-That few boys came upset any of the teachers .	3025.7537	0	10
-I was not reading a book when you came in .	441.1147	1	11
-A boy did not laugh .	225.52301	1	6
-Most boys did not laugh .	333.211	1	6
-Every boy named Mercury and Venus .	212.45502	1	7
-Every boy named every planet .	14730.1045	1	6
-Each student speaks two languages .	833.86646	1	6
-Two students speak each language .	5387.902	1	6
-Some tourists visited all the museums .	3383.4326	1	7
-Fond of some boy every girl is .	519.8925	1	8
-Guinevere has a single bone that is in every corner of the house .	239.3906	0	14
-A critic thinks that every book is readable .	721.24084	1	9
-Who does he admire ?	36.9287	1	5
-He admires every man .	66.11734	1	5
-What does who admire ?	40.557312	0	5
-Someone from every city hates it .	161.73836	1	7
-Some professor admires every student .	783.984	1	6
-Some professor admires every student and hates the dean .	245.87439	1	10
-You filed every paper without inspecting .	6684.946	0	7
-Everyone reported that Max and some lady disappeared .	240.14265	1	9
-Most guests will be offended if we don't invite some philosopher .	129.67703	1	12
-All students believe anything that many teachers say .	1031.6417	1	9
-Who will be offended if we don't invite which philosopher ?	56.665962	1	11
-Who believes anything that who says ?	1188.5883	1	7
-Exactly two boys kissed some girl .	240.44778	1	7
-Mary dates exactly two of the men who know a producer I like .	869.0505	1	14
-Every student has to come up with three arguments that show that some condition proposed by Bill is wrong .	1013.72284	1	20
-If we invite some philosopher, Max will be offended .	33.551228	1	10
+The more I talk to Joe, the less about linguistics I am inclined to think Sally has taught him to appreciate .	789.95355	1	22
+The more that John gets upset by them, the more that stories about him seem to show up in the news .	953.8742	1	22
+The more that John gets upset by them, the more that stories about himself seem to show up in the news .	1047.9302	0	22
+Stories about him seem to show up more on the evening news, the more that John gets upset by them .	620.7534	1	21
+Stories about himself seem to show up more on the evening news, the more that John gets upset by them .	675.4779	0	21
+This is the sort of problem which the sooner you solve the more easily you'll satisfy the folks up at corporate headquarters .	3157.763	1	23
+The folks up at corporate headquarters are the sort of people who the sooner you solve this problem, the more easily you'll satisfy .	3111.6567	1	24
+It is this problem that the sooner you solve the more easily you'll satisfy the folks up at corporate headquarters .	3117.3208	1	21
+It is the folks up at corporate headquarters who the sooner you solve this problem, the more easily you'll satisfy .	2655.4258	0	21
+I finally worked up enough courage to ask which people up at corporate headquarters the sooner I solve this problem, the quicker I'll get free of .	2242.6416	0	27
+Which folks up at corporate headquarters do you think that the sooner you solve this problem, the quicker you'll be able to tell t to buzz off ?	1536.9847	0	28
+This is a problem that you'll be able to tell the folks up at corporate headquarters to buzz off if you solve .	1006.284	0	23
+This is a problem that you'll be able to tell the folks up at corporate headquarters to buzz off if you solve it .	1006.284	1	24
+This is a problem that you solve it and you'll be able to tell the folks up at corporate headquarters to buzz off .	1662.3864	0	24
+Ron wanted to wear a tuxedo to the party, but wear a tuxedo to the party Caspar couldn't decide whether to .	165.46881	0	22
+Today there is little or no official harassment of lesbians and gays by the national government, although autonomous governments might .	246.48012	1	21
+I watched the Indians who the man who had been my advisor in my freshman year had advised me to study when I got to Utah talk .	1124.3137	0	28
+I'll talk to John on Friday about the report that the shooting of the prisoners shocked me, and to his wife on Saturday .	283.13696	1	24
+The girl who the by works in a skyscraper and in a quonset but has a dimple on her nose .	141.48999	0	21
+Students who fail the final exam will be executed or students who do not do the reading will be executed .	1972.6844	1	21
+The dumplings which Sasha is gobbling down faster than I can reheat are extremely tasty, if I do say so .	208.1433	0	21
+The dumplings which Sasha is gobbling down faster than I can reheat the meatballs are extremely tasty, if I do say so .	164.42197	1	23
+The dumplings which Sasha is gobbling down faster than I can reheat them are extremely tasty, if I do say so .	264.50708	1	22
+Reports the covers of which the government prescribes the height of the lettering on almost always put me to sleep .	422.66034	1	21
+Reports the lettering on the covers of which the government prescribes the height of are a shocking waste of public funds .	385.50827	1	22
+Reports on the covers of which the government prescribes the height of the lettering almost always put me to sleep .	424.93802	0	21
+Reports of the lettering on the covers of which the government prescribes the height are shocking waste of public funds .	334.23517	0	21
+My sister arrived at a time when no buses were running, and my brother arrived at a time when no buses were running too .	3892.792	1	25
+The scenes to which the censors took objection had to do with the mixed marriage of a woman and a giant panda .	501.44672	1	23
+Sam picked those packages up which are to be mailed tomorrow rest might, but he didn't want to do so until it had stopped raining .	1300.9993	1	26
+Which packages which are to be mailed tomorrow is it possible that Sam didn't pick up until it had stopped raining ?	924.87006	1	22
+Which packages is it possible that Sam didn't pick up which are to be mailed tomorrow until it had stopped raining ?	927.2179	0	22
+It is not true that it was obvious that it would confuse the guards for Herschel to throw a fit .	434.49002	1	21
+John is prouder of having gone than people who don't know him would expect me to believe he would be .	467.35806	1	21
+John is prouder of having gone than Sally expected Joan to believe that the man who didn't shave would be .	179.29955	1	21
+John is prouder of having gone than I expected you to believe he would be of not having fallen asleep .	546.90106	1	21
+Pilots who can fly barrel rolls say that for me to try to do it in a glider would be hazardous .	2102.4346	1	22
+The passengers who had known that the train was not on fire said that those who had thought so had barricaded themselves in the bathrooms .	1572.1433	1	26
+Playing with matches is; lots of fun, but doing, so and emptying gasoline from one can to another at the same time is a sport best reserved for arsons .	455.59488	1	30
+Here's a plate for you to make Bob try to begin to force his sister to leave the cookies on .	782.4685	1	21
+Maxwell isn't half the doctor that feared Marge would realize Tom had confessed that he knew Bill expected him to be .	871.9848	1	22
+The hardest that I think I remember him ever telling me that he had heard of it snowing around here was last January 12th .	1084.9935	1	25
+A friend of mine and a girl who was from his home town met in Vienna who was working in Europe .	839.4769	0	22
+A friend of mine who was working in Europe and a girl met in Vienna who was from his home town .	838.7951	0	22
+Hank plays the guitar and finds arrangements for all the old folk songs which are still sung in these hills, and Ernie writes down all the old folk songs which are still sung in these hills .	972.52814	1	37
+Hank plays the guitar and finds arrangements for, and Ernie writes down, all the old folk songs which are still sung in these hills .	1110.0934	0	25
+They said Tom would pay up, and pay up I'm sure everybody will tell you that his lawyers expect me to believe he did .	1599.1306	1	25
+Handsome though everyone expects me to try to force Bill to make Mom agree that Dick is, I'm still going to Marry Herman .	632.0822	1	24
+The more contented I laughed at the nurse who thought that we were becoming, the more angry we grew at the doctors .	237.35555	0	23
+The more contented the nurses began to believe that we were going to pretend to be, the more angry we grew at the doctors .	1036.7328	0	25
+Wilt is taller than I imagine anybody would ever guess that people had begun expecting Red to announce that he was .	1637.6556	1	22
+The hare outran the tortoise by so much that he forgot the latter was even in the race any more .	190.51347	1	21
+Willy is taller than Bill by as much as everybody seems to expect me to admit to having publicly proclaimed that I believed .	1273.172	1	24
+Willy is taller than Bill by as much as I know a boy who thinks that Bill is taller than Dan .	176.13712	0	22
+Willy is taller than Bill by as much as I watch all the games and I know Billy is taller than Dan .	208.58385	0	23
+This rock is too heavy for me to begin to decide about helping Bob to try to pick it up .	1369.4169	1	21
+That piece of ice is too big for for him to be able to pick up with a teaspoon to be likely .	668.8778	0	23
+That piece of ice is too big for it to be likely for him to be able to pick up with a teaspoon .	1063.4596	0	24
+All the students who the papers which they submitted were lousy I'm not going to allow to register next term .	1361.1853	1	21
+The hot potato which there were several hundred people yelling for me to put down gently turned out to have been filled with TNT .	1908.4518	1	25
+Everybody who has ever, worked in any office which contained any typewriter which had ever been used to type any letters which had to be signed by any administrator who ever worked in any department like mine will know what I mean .	2308.4495	1	43
+One of the Jewish children is a spunky girl, who gave a black eye to the kid with the German roots before the start of the war .	507.3847	1	28
+`` Doing my taxes '' gives a headache to 22 percent of Americans surveyed for Pfizer, which makes tylenol pain relief medicine .	573.47186	1	23
+In January 2002, a dull star in an obscure constellation suddenly became 600,000 times more luminous than our Sun, temporarily making it the brightest star in our galaxy .	262.30753	1	29
+All native speakers have a grammatical competence which can generate an infinite set of grammatical sentences from a finite set of resources .	213.70221	1	23
+We had hoped to get three new equipments every month, but we only had enough money to get an equipment every two weeks .	1072.7018	0	24
+John asked me to put the clothes in the cupboard, but I did so put the clothes in the suitcase .	210.48167	0	21
+That the march should go ahead and that it should be cancelled have been argued by different people at different times .	2418.8098	1	22
+That the march should go ahead and that it should be cancelled has been argued by different people at different times .	2443.0383	0	22
+This is the kind of person who I doubt that under normal circumstances would have anything to do with such a scheme .	1613.5851	1	23
+That Bill tried to discover which drawer Alice put the money in made us realize that we should have left him in Seoul .	672.9699	1	24
+It's fine that he paid and apologized, but I don't really care about his gratitude, or the money, or anything .	158.97002	1	21
+It isn't because Sue said anything bad about me that I'm angry, although she did say some bad things about me .	611.6231	0	22
+The book of poems with a red cover from Blackwell by Robert Burns takes a very long time to read .	494.53976	1	21
+the book of poems with a red cover from Blackwell by Robert Burns takes a very long time to read .	513.54724	1	21
+the book of poems from Blackwell with a red cover by Robert Burns takes a very long time to read .	513.27234	1	21
+the book of poems from Blackwell by Robert Burns with a red cover takes a very long time to read .	513.13776	1	21
+the book of poems by Robert Burns from Blackwell with a red cover takes a very long time to read .	513.15607	1	21
+the book of poems by Robert Burns with a red cover from Blackwell takes a very long time to read .	513.22656	1	21
+the book of poems with a red cover by Robert Burns from Blackwell takes a very long time to read .	513.5414	1	21
+the book with a red cover of poems from Blackwell by Robert Burns takes a very long time to read .	512.8051	0	21
+the book with a red cover from Blackwell of poems by Robert Burns takes a very long time to read .	512.82465	0	21
+the book with a red cover from Blackwell by Robert Burns of poems takes a very long time to read .	512.83636	0	21
+the book of poems with a red cover and with a blue spine takes a very long time to read .	1025.4028	1	21
+The red volume of obscene verse from Italy shocked the puritan soul of the minister with the beard quite thoroughly yesterday .	704.7208	1	22
+The biggest man in the room said that John danced an Irish jig from County Kerry to County Tipperary on Thursday .	44.604942	1	22
+A burlap sack of potatoes with mealy skins fell on the professor of linguistics with the terrible taste in T-shirts from the twelfth story .	439.19553	1	25
+The bright green filing cabinet was filled to the brim with the most boring articles from a prestigious journal of linguistics with a moderately large readership .	8479.609	1	27
+The prisoner must have been being interrogated when the supervisor walked into the room and saw what was going on and put a stop to it .	2409.5579	1	27
+We didn't keep a list of the names, but the President thanked every soldier who had fought in the Gulf War .	76.777336	1	22
+We have many graduate students but this year the graduate director met with every student in the graduate program individually to discuss their progress .	2574.882	1	25
+We have many graduate students but this year the graduate director met with any student in the graduate program individually to discuss their progress .	2171.0823	0	25
+I have wanted to meet the man who spent so much money planning the assassination of Kennedy for many years .	932.5178	1	21
+I have wanted to meet for many years the man who spent so much money planning the assassination of Kennedy .	932.32794	1	21
+People are said to do such crazy things at such high speeds there by Dorothy that I am getting skeptical .	1696.7501	1	21
+A businessman will drink a martini to relax, and a health nut, a glass of wine, just to remain healthy .	696.48303	1	21
+We talked about the issues we had worked on as students and that our perspectives had changed over the years .	869.42645	1	21
+We talked about that our perspectives had changed over the years and the issues we had worked on as students .	868.7377	0	21
+That our perspectives had changed over the years and the issues we had worked on as students were the topics of discussion .	1026.1189	1	23
+This girl in the red coat but no boys will put a picture of Bill on your desk before tomorrow .	688.768	1	21
+This girl in the red coat will put a picture of Bill on your desk after the dinner and before tomorrow .	920.4893	1	22
+This girl in the red coat will eat her breakfast before tomorrow and put a picture of Bill on your desk before tomorrow .	1332.2988	1	24
+This girl in the red coat will eat her breakfast and will put a picture of Bill on your desk before tomorrow .	840.43744	1	23
+Smith loaned a valuable collection of manuscripts to the library, and his widow later donated a valuable collection of manuscripts to the library .	1374.477	1	24
+I borrowed large sums of money from the bank, and my sister stole large sums of money from the bank .	1910.3774	1	21
+Put a picture of Bill on your desk, this girl in the red coat will put a picture of Bill on your desk before tomorrow .	289.87665	0	26
+Girl in the red coat, this girl in the red coat will put a picture of Bill on your desk before tomorrow .	307.5503	0	23
+Will put a picture of Bill on your desk before tomorrow, this girl in the red coat will put a picture of Bill on your desk before tomorrow .	591.3303	0	29
+Of Bill on, this girl in the red coat will put a picture of Bill on your desk before tomorrow .	382.80182	0	21
+Your desk before, this girl in the red coat will put a picture of Bill on your desk before tomorrow .	574.68427	0	21
+It is before tomorrow that this girl in the red coat will put a picture of Bill on your desk before tomorrow .	735.7709	0	23
+It is a picture of Bill that this girl in the red coat will put on your desk before tomorrow .	552.2649	1	21
+It is put a picture of Bill on your desk before tomorrow that this girl in the red coat will .	542.9502	0	21
+What this girl in the red coat will do is put a picture of Bill on your desk before tomorrow .	562.9184	1	21

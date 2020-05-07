@@ -19,7 +19,7 @@ class Model(tf.keras.Model):
 
         self.vocab_size = vocab_size
         self.rnn_size = 256
-        self.window_size = 4
+        self.window_size = 20
         self.embedding_size = 40
         self.batch_size = 64
         self.learning_rate = 0.01

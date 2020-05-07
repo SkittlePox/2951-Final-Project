@@ -85,16 +85,17 @@ def symbo():
     global lab
     global inp
     t = time.time()
-    lab = test_labels[:200]
-    inp = test_inputs[:200]
+    inp = ["I can't remember the name of somebody who had misgivings .".split()]
+    # lab = test_labels[:200]
+    # inp = test_inputs[:200]
     probs, prods = sym.produce_normalized_log_probs(inp, 'sum-norm')
     print("Calculated sentence probabilities in %.1fs" % (time.time()-t))
     # probs, prods = sym.produce_normalized_log_probs(["John John John John .".split()])
-    if TESTING:
-        print(probs)
+    # if TESTING:
+    print(probs)
 
-    visualize_results(probs, lab, "sum-norm-test")
-    export_results(probs, lab, inp, prods)
+    # visualize_results(probs, lab, "sum-norm-test")
+    # export_results(probs, lab, inp, prods)
 
 def neuro():
     # w2id = get_ptb_w2id("data/ptb.csv")
@@ -112,7 +113,7 @@ def neuro():
     training = training_data[:80000]
     testing = training_data[80000:100000]
 
-    w_size = 4
+    w_size = 20
 
     t = time.time()
     train_x = []
@@ -144,12 +145,12 @@ def neuro():
 
     train_inputs, train_labels, test_inputs, test_labels = load_cola()
     # print(test_inputs[0])
-    test_inputs, test_labels = neur_test_2()
+    # test_inputs, test_labels = neur_test_2()
 
     new_inputs, new_labels = filter_window_size(train_inputs, train_labels, w_size)
     train_inputs_id = make_words_into_ids(new_inputs, w2id)
     # print(len(new_inputs[1]))
-    print(len(new_inputs))
+    # print(len(new_inputs))
 
     cola_train_x = []
     cola_train_y = []
@@ -191,6 +192,8 @@ def neuro():
     cola_test_x = []
     cola_test_y = []
     cola_lens = []
+
+    w_size = 4
 
     for ex in test_inputs_id[:1000]:
         t_x = []

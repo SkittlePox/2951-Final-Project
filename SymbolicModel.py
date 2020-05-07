@@ -29,7 +29,7 @@ class SymbolicModel:
                 parses = self.parser.parse_all(input)
                 if parses:
                     # print(len(parses))
-                    # parses[0].draw()
+                    parses[0].draw()
                     productions = parses[0].productions()
                     prod_number = len(productions)
                     self.out_prods.append(prod_number)
